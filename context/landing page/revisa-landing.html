@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Revisa · Análise Gratuita do Seu Caso</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --teal: #32969B;
+    --teal-10: rgba(50,150,155,0.10);
+    --teal-20: rgba(50,150,155,0.20);
+    --off-white: #FAFAFA;
+    --off-white-warm: #EDE8E5;
+    --gray: #E7E7E7;
+    --text: #1a2e30;
+    --text-muted: rgba(26,46,48,0.55);
+    --radius: 4px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    background: var(--off-white-warm);
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* ─── NAV ─── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: var(--off-white-warm);
+    border-bottom: 1px solid var(--gray);
+    padding: 18px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+  }
+
+  .nav-logo svg { height: 28px; }
+
+  .nav-logo span {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -0.5px;
+  }
+
+  .nav-cta {
+    background: var(--teal-10);
+    color: var(--teal);
+    border: 1.5px solid var(--teal-20);
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 10px 24px;
+    border-radius: var(--radius);
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  .nav-cta:hover { background: var(--teal-20); border-color: var(--teal); }
+
+  /* ─── HERO ─── */
+  .hero {
+    background: var(--off-white-warm);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 120px 48px 80px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -80px; right: -80px;
+    width: 520px; height: 520px;
+    background: radial-gradient(circle, rgba(50,150,155,0.07) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+  }
+
+  .hero-tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--teal);
+    background: var(--teal-10);
+    border: 1px solid var(--teal-20);
+    padding: 4px 12px;
+    border-radius: 2px;
+    margin-bottom: 24px;
+  }
+
+  .hero h1 {
+    font-size: clamp(36px, 4vw, 52px);
+    font-weight: 800;
+    color: var(--text);
+    line-height: 1.15;
+    letter-spacing: -1px;
+    margin-bottom: 24px;
+  }
+
+  .hero h1 em {
+    color: var(--teal);
+    font-style: normal;
+  }
+
+  .hero p {
+    font-size: 17px;
+    font-weight: 300;
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin-bottom: 40px;
+    max-width: 460px;
+  }
+
+  .hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--teal-10);
+    color: var(--teal);
+    border: 1.5px solid var(--teal-20);
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition: background 0.2s, border-color 0.2s, transform 0.2s;
+  }
+  .btn-primary:hover { background: var(--teal-20); border-color: var(--teal); transform: translateY(-1px); }
+
+  .btn-primary svg { width: 20px; height: 20px; }
+
+  .hero-note {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--text-muted);
+    letter-spacing: 0.02em;
+  }
+
+  /* hero visual — pilares flutuando */
+  .hero-visual {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .hero-card {
+    background: var(--off-white);
+    border: 1px solid var(--gray);
+    border-left: 3px solid var(--teal);
+    padding: 20px 24px;
+    border-radius: var(--radius);
+    opacity: 0;
+    transform: translateX(30px);
+    animation: slideIn 0.5s forwards;
+  }
+
+  .hero-card:nth-child(1) { animation-delay: 0.3s; }
+  .hero-card:nth-child(2) { animation-delay: 0.5s; }
+  .hero-card:nth-child(3) { animation-delay: 0.7s; }
+  .hero-card:nth-child(4) { animation-delay: 0.9s; }
+
+  @keyframes slideIn {
+    to { opacity: 1; transform: translateX(0); }
+  }
+
+  .hero-card-label {
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--teal);
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+
+  .hero-card-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-muted);
+  }
+
+  /* ─── LOGOS EMPRESAS ─── */
+  .empresas {
+    background: var(--off-white);
+    border-top: 1px solid var(--gray);
+    border-bottom: 1px solid var(--gray);
+    padding: 32px 48px;
+  }
+
+  .empresas-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .empresas-label {
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 300;
+    white-space: nowrap;
+  }
+
+  .empresas-list {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    flex-wrap: wrap;
+  }
+
+  .empresa-nome {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(26,46,48,0.30);
+    transition: color 0.2s;
+  }
+  .empresa-nome:hover { color: var(--teal); }
+
+  /* ─── COMO FUNCIONA ─── */
+  .como-funciona {
+    padding: 100px 48px;
+    background: var(--off-white-warm);
+  }
+
+  .section-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .section-tag {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--teal);
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .section-title {
+    font-size: clamp(28px, 3vw, 40px);
+    font-weight: 800;
+    color: var(--navy);
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    margin-bottom: 56px;
+    max-width: 480px;
+  }
+
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    background: var(--gray);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+
+  .step {
+    background: var(--off-white-warm);
+    padding: 40px 36px;
+    position: relative;
+  }
+
+  .step-num {
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--teal);
+    opacity: 0.18;
+    line-height: 1;
+    margin-bottom: 20px;
+    letter-spacing: -2px;
+  }
+
+  .step-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 12px;
+  }
+
+  .step-text {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--text-muted);
+    line-height: 1.65;
+  }
+
+  .step-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--teal-10);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .step-icon svg {
+    width: 20px;
+    height: 20px;
+    stroke: var(--teal);
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  /* ─── DEPOIMENTOS ─── */
+  .depoimentos {
+    padding: 100px 48px;
+    background: var(--off-white);
+  }
+
+  .depoimentos .section-tag { color: var(--teal); }
+  .depoimentos .section-title { color: var(--text); }
+
+  .depoimentos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .depoimento {
+    background: var(--off-white-warm);
+    border: 1px solid var(--gray);
+    padding: 32px;
+    border-radius: var(--radius);
+    position: relative;
+  }
+
+  .depoimento::before {
+    content: '"';
+    position: absolute;
+    top: 20px; right: 28px;
+    font-size: 80px;
+    font-weight: 800;
+    color: var(--teal);
+    opacity: 0.12;
+    line-height: 1;
+  }
+
+  .depoimento-text {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin-bottom: 24px;
+  }
+
+  .depoimento-autor {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .depoimento-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--teal-10);
+    border: 1px solid var(--teal-20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--teal);
+  }
+
+  .depoimento-nome {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .depoimento-cargo {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--text-muted);
+    letter-spacing: 0.04em;
+  }
+
+  /* ─── FAQ ─── */
+  .faq {
+    padding: 100px 48px;
+    background: var(--off-white-warm);
+  }
+
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 0;
+  }
+
+  .faq-item {
+    background: var(--off-white);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+
+  .faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 24px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    cursor: pointer;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--navy);
+    transition: background 0.2s;
+  }
+  .faq-question:hover { background: rgba(50,150,155,0.05); }
+
+  .faq-chevron {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    stroke: var(--teal);
+    fill: none;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: transform 0.3s;
+  }
+
+  .faq-item.open .faq-chevron { transform: rotate(180deg); }
+
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease, padding 0.3s;
+    padding: 0 28px;
+  }
+
+  .faq-item.open .faq-answer {
+    max-height: 300px;
+    padding: 0 28px 24px;
+  }
+
+  .faq-answer p {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--text-muted);
+    line-height: 1.7;
+    border-top: 1px solid var(--gray);
+    padding-top: 16px;
+  }
+
+  /* ─── CTA FINAL ─── */
+  .cta-final {
+    padding: 100px 48px;
+    background: var(--teal-10);
+    border-top: 1px solid var(--teal-20);
+    text-align: center;
+  }
+
+  .cta-final h2 {
+    font-size: clamp(28px, 3.5vw, 44px);
+    font-weight: 800;
+    color: var(--text);
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    margin-bottom: 16px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cta-final p {
+    font-size: 17px;
+    font-weight: 300;
+    color: var(--text-muted);
+    margin-bottom: 40px;
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn-white {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--off-white);
+    color: var(--teal);
+    border: 1.5px solid var(--teal-20);
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 16px 36px;
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition: background 0.2s, border-color 0.2s, transform 0.2s;
+  }
+  .btn-white:hover { background: var(--teal-20); border-color: var(--teal); transform: translateY(-2px); }
+  .btn-white svg { width: 20px; height: 20px; }
+
+  .cta-note {
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--text-muted);
+  }
+
+  /* ─── FOOTER ─── */
+  footer {
+    background: var(--off-white-warm);
+    padding: 40px 48px;
+    border-top: 1px solid var(--gray);
+  }
+
+  .footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+  }
+
+  .footer-logo svg { height: 22px; }
+
+  .footer-logo span {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -0.5px;
+  }
+
+  .footer-text {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--text-muted);
+  }
+
+  /* ─── FLOATING WHATSAPP ─── */
+  .whatsapp-float {
+    position: fixed;
+    bottom: 28px; right: 28px;
+    z-index: 200;
+    background: #25D366;
+    width: 56px; height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    animation: pulse 2.5s infinite;
+  }
+  .whatsapp-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(0,0,0,0.3); animation: none; }
+  .whatsapp-float svg { width: 28px; height: 28px; fill: #fff; }
+
+  @keyframes pulse {
+    0%,100% { box-shadow: 0 4px 20px rgba(37,211,102,0.3); }
+    50%      { box-shadow: 0 4px 32px rgba(37,211,102,0.6); }
+  }
+
+  /* ─── RESPONSIVO ─── */
+  @media (max-width: 900px) {
+    nav { padding: 16px 24px; }
+    .hero { padding: 100px 24px 64px; }
+    .hero-inner { grid-template-columns: 1fr; gap: 48px; }
+    .hero-visual { display: none; }
+    .empresas { padding: 28px 24px; }
+    .como-funciona, .depoimentos, .faq, .cta-final { padding: 72px 24px; }
+    .steps { grid-template-columns: 1fr; }
+    .depoimentos-grid { grid-template-columns: 1fr; }
+    footer { padding: 32px 24px; }
+    .footer-inner { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">
+    <img src="../id_visual/logo/Logo_princial-removebg-preview.png" alt="revisa" style="height: 200px;">
+  </a>
+  <a href="https://wa.me/5500000000000" target="_blank" class="nav-cta">Análise Gratuita</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <span class="hero-tag">Para ex-funcionários de grandes empresas</span>
+      <h1>Você pode ter direitos que <em>ainda não conhece.</em></h1>
+      <p>A Revisa analisa o seu caso de forma gratuita, discreta e sem compromisso. Se houver algo a recuperar, você saberá antes de assinar qualquer acordo.</p>
+      <div class="hero-actions">
+        <a href="https://wa.me/5500000000000" target="_blank" class="btn-primary">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.554 4.112 1.523 5.837L.057 23.886l6.212-1.443A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-4.98-1.357l-.358-.213-3.688.857.923-3.564-.234-.369A9.818 9.818 0 012.182 12C2.182 6.578 6.578 2.182 12 2.182c5.422 0 9.818 4.396 9.818 9.818 0 5.422-4.396 9.818-9.818 9.818z"/></svg>
+          Falar no WhatsApp
+        </a>
+        <span class="hero-note">Grátis · Sem compromisso · Confidencial</span>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-card">
+        <div class="hero-card-label">Sigilo garantido</div>
+        <div class="hero-card-text">Sua consulta é confidencial. Nenhum dado é compartilhado sem sua autorização.</div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-label">Sem juridiquês</div>
+        <div class="hero-card-text">Traduzimos o que está no contrato em linguagem clara. Você decide com informação.</div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-label">Análise técnica</div>
+        <div class="hero-card-text">Identificamos riscos e oportunidades que passam despercebidos na maioria dos casos.</div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-label">Sem custo inicial</div>
+        <div class="hero-card-text">A análise do seu caso é gratuita. Você só avança se quiser.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EMPRESAS -->
+<div class="empresas">
+  <div class="empresas-inner">
+    <span class="empresas-label">Atendemos ex-funcionários de</span>
+    <div class="empresas-list">
+      <span class="empresa-nome">Unilever</span>
+      <span class="empresa-nome">Coca-Cola</span>
+      <span class="empresa-nome">Nestlé</span>
+      <span class="empresa-nome">PepsiCo</span>
+      <span class="empresa-nome">Danone</span>
+      <span class="empresa-nome">J&J</span>
+      <span class="empresa-nome">Colgate</span>
+      <span class="empresa-nome">Cimed</span>
+      <span class="empresa-nome">Marilan</span>
+    </div>
+  </div>
+</div>
+
+<!-- COMO FUNCIONA -->
+<section class="como-funciona" id="como-funciona">
+  <div class="section-inner">
+    <span class="section-tag">Como funciona</span>
+    <h2 class="section-title">Do primeiro contato à análise do seu caso</h2>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <div class="step-icon">
+          <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+        </div>
+        <div class="step-title">Você nos conta o seu caso</div>
+        <div class="step-text">Entre em contato pelo WhatsApp. Sem formulários extensos. Uma conversa simples já é suficiente para começarmos.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <div class="step-icon">
+          <svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+        </div>
+        <div class="step-title">Analisamos de forma gratuita</div>
+        <div class="step-text">Nossa equipe avalia o seu histórico e identifica se há direitos não reconhecidos ou acordos que não refletem o que você realmente é devido.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <div class="step-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div class="step-title">Você decide com clareza</div>
+        <div class="step-text">Apresentamos os resultados da análise em linguagem direta. A decisão é sempre sua, sem pressão e sem pressa.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="depoimentos" id="depoimentos">
+  <div class="section-inner">
+    <span class="section-tag">O que dizem nossos clientes</span>
+    <h2 class="section-title">Resultados reais, decisões informadas</h2>
+
+    <div class="depoimentos-grid">
+      <div class="depoimento">
+        <p class="depoimento-text">Ia aceitar o acordo sem questionar. A Revisa identificou pontos que eu jamais teria visto. No final, recebi muito mais do que o proposto inicialmente.</p>
+        <div class="depoimento-autor">
+          <div class="depoimento-avatar">–</div>
+          <div>
+            <div class="depoimento-nome">Identidade preservada</div>
+            <div class="depoimento-cargo">Ex-Vendedor</div>
+          </div>
+        </div>
+      </div>
+      <div class="depoimento">
+        <p class="depoimento-text">Processo rápido e discreto. Explicaram tudo de forma clara, sem termos complicados. Me senti seguro em cada etapa.</p>
+        <div class="depoimento-autor">
+          <div class="depoimento-avatar">–</div>
+          <div>
+            <div class="depoimento-nome">Identidade preservada</div>
+            <div class="depoimento-cargo">Ex-Representante Comercial</div>
+          </div>
+        </div>
+      </div>
+      <div class="depoimento">
+        <p class="depoimento-text">Não sabia nem que tinha direito a questionar. A análise gratuita abriu os meus olhos. Equipe séria e muito profissional.</p>
+        <div class="depoimento-autor">
+          <div class="depoimento-avatar">–</div>
+          <div>
+            <div class="depoimento-nome">Identidade preservada</div>
+            <div class="depoimento-cargo">Ex-Promotor de Merchandise</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="section-inner">
+    <span class="section-tag">Dúvidas frequentes</span>
+    <h2 class="section-title">Respostas diretas para as perguntas mais comuns</h2>
+
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          A análise é realmente gratuita?
+          <svg class="faq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Sim. A análise inicial do seu caso não tem nenhum custo. Você recebe um diagnóstico claro e só avança se quiser e se fizer sentido para você.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Já faz tempo que saí da empresa. Ainda posso ter direitos?
+          <svg class="faq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Depende do seu caso específico. Os prazos variam conforme o tipo de direito e a situação. Por isso a análise é fundamental. Só com os detalhes do seu histórico é possível avaliar corretamente.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Preciso de um advogado para começar?
+          <svg class="faq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Não. O primeiro passo é apenas uma conversa conosco. Se o seu caso avançar, a Revisa orienta sobre os próximos passos sem burocracia.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Meus dados ficam seguros?
+          <svg class="faq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Sigilo é um pilar da Revisa. Nenhuma informação sua é compartilhada com terceiros sem sua autorização expressa. Você tem controle total sobre o que nos envia.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Já recebi uma proposta de acordo. Devo aceitar?
+          <svg class="faq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Não assine nada antes de nos consultar. Identificamos se a proposta reflete o que você realmente é devido. Em muitos casos, o acordo inicial está bem abaixo do valor correto.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-final">
+  <h2>Antes de assinar qualquer coisa, fale com a gente.</h2>
+  <p>A análise é gratuita, discreta e sem compromisso. Você só perde se não souber o que tem direito.</p>
+  <a href="https://wa.me/5500000000000" target="_blank" class="btn-white">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.554 4.112 1.523 5.837L.057 23.886l6.212-1.443A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-4.98-1.357l-.358-.213-3.688.857.923-3.564-.234-.369A9.818 9.818 0 012.182 12C2.182 6.578 6.578 2.182 12 2.182c5.422 0 9.818 4.396 9.818 9.818 0 5.422-4.396 9.818-9.818 9.818z"/></svg>
+    Falar no WhatsApp agora
+  </a>
+  <div class="cta-note">Grátis · Sem compromisso · Confidencial</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <a href="#" class="footer-logo">
+      <img src="../id_visual/logo/Logo_princial-removebg-preview.png" alt="revisa" style="height: 170px;">
+    </a>
+    <span class="footer-text">© 2026 Revisa · Todos os direitos reservados</span>
+  </div>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/5500000000000" target="_blank" class="whatsapp-float" title="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+    <path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.554 4.112 1.523 5.837L.057 23.886l6.212-1.443A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-4.98-1.357l-.358-.213-3.688.857.923-3.564-.234-.369A9.818 9.818 0 012.182 12C2.182 6.578 6.578 2.182 12 2.182c5.422 0 9.818 4.396 9.818 9.818 0 5.422-4.396 9.818-9.818 9.818z"/>
+  </svg>
+</a>
+
+<script>
+  function toggleFaq(btn) {
+    const item = btn.parentElement;
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  }
+
+  // Animação de entrada das seções no scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.style.opacity = '1';
+        e.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('.step, .depoimento, .faq-item').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(20px)';
+    el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    observer.observe(el);
+  });
+</script>
+</body>
+</html>

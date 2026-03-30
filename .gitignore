@@ -1,0 +1,7 @@
+.~lock.*
+site/node_modules/
+site/.next/
+site/out/
+site/tsconfig.tsbuildinfo
+.DS_Store
+*.log
