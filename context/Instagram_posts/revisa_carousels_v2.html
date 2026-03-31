@@ -1,0 +1,357 @@
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  .root { font-family: 'Nunito', sans-serif; background: transparent; padding: 1.5rem 0; }
+
+  .section-label {
+    font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
+    color: var(--color-text-secondary); margin-bottom: 1.5rem; font-weight: 300;
+  }
+  .concept-block { margin-bottom: 2.5rem; }
+  .concept-title { font-size: 13px; font-weight: 700; color: var(--color-text-primary); margin-bottom: 3px; }
+  .concept-desc { font-size: 11.5px; color: var(--color-text-secondary); margin-bottom: 12px; line-height: 1.5; }
+
+  .strip {
+    display: flex; gap: 10px; overflow-x: auto; padding-bottom: 8px;
+    scrollbar-width: thin;
+  }
+  .strip::-webkit-scrollbar { height: 3px; }
+  .strip::-webkit-scrollbar-thumb { background: #32969B55; border-radius: 2px; }
+
+  /* === SLIDE === */
+  .slide {
+    flex: 0 0 178px; height: 178px; border-radius: 14px;
+    position: relative; overflow: hidden;
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 14px; transition: transform 0.15s; cursor: default;
+  }
+
+  /* BACKGROUNDS */
+  .bg-warm     { background: #EDE8E5; }
+  .bg-navy     { background: #07191D; }
+  .bg-teal     { background: #32969B; }
+  .bg-white    { background: #FAFAFA; border: 1px solid rgba(7,25,29,0.08); }
+  .bg-teal-10  { background: rgba(50,150,155,0.10); border: 1px solid rgba(50,150,155,0.18); }
+
+  /* TEXT */
+  .tag  { font-size: 8px; font-weight: 300; letter-spacing: 1.8px; text-transform: uppercase; margin-bottom: 10px; }
+  .tag-teal    { color: #32969B; }
+  .tag-red     { color: #c0392b; }
+  .tag-dark    { color: rgba(255,255,255,0.4); }
+  .tag-muted   { color: rgba(7,25,29,0.4); }
+
+  .h { font-size: 14px; font-weight: 800; line-height: 1.25; color: #07191D; margin-bottom: 5px; }
+  .h-w { color: #FAFAFA; }
+  .h .hi { color: #32969B; }
+  .h .hi-w { color: rgba(255,255,255,0.75); }
+
+  .b { font-size: 10px; font-weight: 400; line-height: 1.5; color: rgba(7,25,29,0.55); }
+  .b-w { color: rgba(255,255,255,0.5); }
+  .b-tw { color: rgba(255,255,255,0.75); }
+
+  .bar { width: 22px; height: 2px; border-radius: 2px; background: #32969B; margin-bottom: 8px; }
+  .bar-w { background: rgba(255,255,255,0.35); }
+
+  .cta { display: inline-block; background: #32969B; color: #fff;
+    font-size: 8px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+    padding: 5px 10px; border-radius: 6px; margin-top: 8px; }
+  .cta-o { background: transparent; border: 1px solid rgba(255,255,255,0.3); color: #fff; }
+
+  .badge { position: absolute; top: 11px; right: 12px;
+    font-size: 7px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase;
+    padding: 3px 7px; border-radius: 4px; }
+  .badge-teal  { background: #32969B; color: #fff; }
+  .badge-ghost { background: rgba(50,150,155,0.12); color: #32969B; border: 1px solid rgba(50,150,155,0.3); }
+  .badge-arr   { background: transparent; color: rgba(7,25,29,0.4); border: none; font-size: 10px; letter-spacing: 0; }
+
+  .num-big { font-size: 48px; font-weight: 800; line-height: 1; color: #07191D; opacity: 0.06; position: absolute; bottom: 8px; right: 12px; }
+  .num-big-w { color: #fff; opacity: 0.07; }
+
+  /* STAT */
+  .stat-n { font-size: 30px; font-weight: 800; color: #32969B; line-height: 1; }
+  .stat-l { font-size: 9px; font-weight: 300; color: rgba(7,25,29,0.5); letter-spacing: 0.3px; }
+
+  /* STEP (C2) */
+  .step-num {
+    width: 22px; height: 22px; border-radius: 50%;
+    background: rgba(50,150,155,0.12); border: 1px solid rgba(50,150,155,0.3);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 10px; font-weight: 800; color: #32969B;
+    margin-bottom: 8px; flex-shrink: 0;
+  }
+  .step-num-w {
+    background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.25); color: #fff;
+  }
+
+  /* MYTH (C3) */
+  .myth-x { font-size: 11px; font-weight: 800; color: #c0392b; margin-bottom: 4px; }
+  .myth-q { font-size: 12px; font-weight: 800; color: #07191D; line-height: 1.25; margin-bottom: 7px; }
+  .myth-v { font-size: 9.5px; color: rgba(7,25,29,0.6); line-height: 1.45; }
+  .myth-check { font-size: 10px; color: #32969B; font-weight: 700; margin-bottom: 3px; }
+
+  /* COMPANY (C4) */
+  .co-tag { font-size: 18px; font-weight: 800; color: rgba(50,150,155,0.2); position: absolute; top: 12px; left: 14px; line-height: 1; }
+
+  /* CHECKLIST */
+  .ck { list-style: none; margin-top: 6px; }
+  .ck li { font-size: 9.5px; color: rgba(7,25,29,0.6); padding: 2.5px 0 2.5px 11px; position: relative; line-height: 1.3; }
+  .ck li::before { content:''; position:absolute; left:0; top:6px; width:5px; height:5px; border-radius:50%; background:#32969B; }
+
+  /* TEAL slide text overrides */
+  .bg-teal .h { color: #fff; }
+  .bg-teal .b { color: rgba(255,255,255,0.75); }
+  .bg-teal .bar { background: rgba(255,255,255,0.3); }
+  .bg-teal .tag-teal { color: rgba(255,255,255,0.55); }
+  .bg-teal .myth-check { color: rgba(255,255,255,0.85); }
+  .bg-teal .myth-q { color: #fff; }
+  .bg-teal .myth-v { color: rgba(255,255,255,0.7); }
+  .bg-teal .myth-x { color: rgba(255,255,255,0.65); }
+
+  .sep { border: none; border-top: 0.5px solid var(--color-border-tertiary); margin: 1.8rem 0; }
+
+  /* Alignment tweaks note tag */
+  .align-tag { display:inline-block; background: rgba(50,150,155,0.1); color:#32969B;
+    font-size:10px; font-weight:700; padding:2px 8px; border-radius:4px; margin-bottom:6px; }
+</style>
+
+<div class="root">
+  <p class="section-label">Carrosséis · Revisa · v2 · alinhado com todos os documentos</p>
+
+  <!-- ===== CARROSSEL 1 ===== -->
+  <div class="concept-block">
+    <p class="concept-title">Carrossel 1 — "O que costuma ficar de fora da rescisão"</p>
+    <p class="concept-desc">Educativo. Tom: descoberta técnica, não confronto. Alinhado com dores da landing page e do documento descritivo.</p>
+    <div class="strip">
+
+      <div class="slide bg-warm">
+        <div class="badge badge-arr">arraste →</div>
+        <div>
+          <div class="tag tag-teal">rescisão · direitos</div>
+          <div class="bar"></div>
+          <div class="h">O que costuma ficar de fora quando você sai da empresa.</div>
+        </div>
+      </div>
+
+      <div class="slide bg-white">
+        <div class="num-big">1</div>
+        <div>
+          <div class="tag tag-teal">horas extras</div>
+          <div class="stat-n">01</div>
+          <div class="stat-l">reflexos em férias, 13º e FGTS</div>
+          <div class="b" style="margin-top:5px">Quando as horas extras não entram no cálculo, outros valores também ficam menores.</div>
+        </div>
+      </div>
+
+      <div class="slide bg-white">
+        <div class="num-big">2</div>
+        <div>
+          <div class="tag tag-teal">metas e variável</div>
+          <div class="stat-n">02</div>
+          <div class="stat-l">bônus, comissões e prêmios</div>
+          <div class="b" style="margin-top:5px">Muitos têm natureza salarial e deveriam entrar nos reflexos. Nem sempre isso acontece.</div>
+        </div>
+      </div>
+
+      <div class="slide bg-white">
+        <div class="num-big">3</div>
+        <div>
+          <div class="tag tag-teal">jornada e função</div>
+          <div class="stat-n">03</div>
+          <div class="stat-l">acúmulo de função e insalubridade</div>
+          <div class="b" style="margin-top:5px">Cargos com rotina intensa frequentemente escondem diferenças relevantes.</div>
+        </div>
+      </div>
+
+      <div class="slide bg-warm">
+        <div>
+          <div class="bar"></div>
+          <div class="h">Nem sempre o erro é óbvio na hora da saída.</div>
+          <div class="b" style="margin-top:5px">Só aparece quando alguém analisa com critério.</div>
+          <div class="cta">Entenda o seu caso</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <hr class="sep">
+
+  <!-- ===== CARROSSEL 2 (REFORMULADO) ===== -->
+  <div class="concept-block">
+    <p class="concept-title">Carrossel 2 — "Como funciona na prática" <span class="align-tag">reformulado</span></p>
+    <p class="concept-desc">Passo a passo sem fundo navy em todos os slides. Capa em Warm, passos alternando Warm e fundo branco com detalhe teal, último slide em teal.</p>
+    <div class="strip">
+
+      <!-- Capa warm -->
+      <div class="slide bg-warm">
+        <div class="badge badge-ghost">passo a passo</div>
+        <div>
+          <div class="bar"></div>
+          <div class="h">Como funciona a <span class="hi">revisão</span> na prática.</div>
+          <div class="b" style="margin-top:4px">Simples, sigiloso e sem compromisso.</div>
+        </div>
+      </div>
+
+      <!-- Passo 1 — fundo branco -->
+      <div class="slide bg-white">
+        <div>
+          <div class="step-num">1</div>
+          <div class="tag tag-teal">você fala com a gente</div>
+          <div class="h" style="font-size:13px">10 minutos de conversa.</div>
+          <div class="b" style="margin-top:4px">Sem compromisso. Você conta o seu histórico e a gente escuta.</div>
+        </div>
+      </div>
+
+      <!-- Passo 2 — fundo teal-10 -->
+      <div class="slide bg-teal-10">
+        <div>
+          <div class="step-num">2</div>
+          <div class="tag tag-teal">análise técnica</div>
+          <div class="h" style="font-size:13px">Especialistas analisam o seu caso.</div>
+          <div class="b" style="margin-top:4px">Com sigilo total. Sem juridiquês.</div>
+        </div>
+      </div>
+
+      <!-- Passo 3 — fundo branco -->
+      <div class="slide bg-white">
+        <div>
+          <div class="step-num">3</div>
+          <div class="tag tag-teal">relatório claro</div>
+          <div class="h" style="font-size:13px">Você entende o que foi encontrado.</div>
+          <div class="b" style="margin-top:4px">De forma objetiva. Sem surpresa.</div>
+        </div>
+      </div>
+
+      <!-- Passo 4 — fundo teal -->
+      <div class="slide bg-teal">
+        <div>
+          <div class="step-num step-num-w">4</div>
+          <div class="tag" style="color:rgba(255,255,255,0.5);letter-spacing:1.8px;text-transform:uppercase;font-size:8px;font-weight:300;margin-bottom:8px;">você decide</div>
+          <div class="h" style="font-size:14px;color:#fff">Sem pressão.<br>Com dados.</div>
+          <div class="b" style="color:rgba(255,255,255,0.7);margin-top:4px">A decisão é sempre sua.</div>
+          <div class="cta cta-o">Agendar 10 min</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <hr class="sep">
+
+  <!-- ===== CARROSSEL 3 ===== -->
+  <div class="concept-block">
+    <p class="concept-title">Carrossel 3 — "Mitos que impedem as pessoas de revisar"</p>
+    <p class="concept-desc">Quebra de objeção. Capa Warm, slides de mito alternando Warm ↔ Teal. Alinhado com objeções reais do funil de abordagem.</p>
+    <div class="strip">
+
+      <div class="slide bg-warm">
+        <div class="badge badge-teal">mitos</div>
+        <div>
+          <div class="bar"></div>
+          <div class="h"><span class="hi">4 mitos</span> que fazem você deixar dinheiro pra trás.</div>
+        </div>
+      </div>
+
+      <div class="slide bg-warm">
+        <div>
+          <div class="myth-x">✕ mito 1</div>
+          <div class="myth-q">"Revisar significa processar a empresa."</div>
+          <div class="bar"></div>
+          <div class="myth-v">Revisão é análise técnica, não confronto imediato. Você decide o que fazer depois de entender o seu caso.</div>
+        </div>
+      </div>
+
+      <div class="slide bg-teal">
+        <div>
+          <div class="myth-x">✕ mito 2</div>
+          <div class="myth-q">"Meu caso não tem nada a revisar."</div>
+          <div class="bar bar-w"></div>
+          <div class="myth-v" style="color:rgba(255,255,255,0.7)">A maioria dos casos tem ao menos um ponto de atenção. Se não houver nada, ótimo. Se houver, você decide.</div>
+        </div>
+      </div>
+
+      <div class="slide bg-warm">
+        <div>
+          <div class="myth-x">✕ mito 3</div>
+          <div class="myth-q">"Já passou o prazo."</div>
+          <div class="bar"></div>
+          <div class="myth-v">A lei permite revisar os <strong style="color:#32969B">5 anos anteriores</strong>. Pode ser que ainda dê tempo.</div>
+        </div>
+      </div>
+
+      <div class="slide bg-teal">
+        <div>
+          <div class="myth-x">✕ mito 4</div>
+          <div class="myth-q">"É caro e complicado."</div>
+          <div class="bar bar-w"></div>
+          <div class="myth-v" style="color:rgba(255,255,255,0.7)">A análise inicial é gratuita e dura 10 minutos. Sem complicação.</div>
+          <div class="cta cta-o" style="margin-top:8px">Agendar análise</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <hr class="sep">
+
+  <!-- ===== CARROSSEL 4 ===== -->
+  <div class="concept-block">
+    <p class="concept-title">Carrossel 4 — "Trabalhou na [empresa]?" — versão por ex-empregador</p>
+    <p class="concept-desc">Alinhado com a arquitetura de páginas por empregador e com os padrões de abordagem do xlsx. Capa Warm com nome da empresa em destaque.</p>
+    <div class="strip">
+
+      <!-- Capa -->
+      <div class="slide bg-warm">
+        <div class="co-tag">Unilever</div>
+        <div>
+          <div class="bar"></div>
+          <div class="h">Trabalhou na <span class="hi">Unilever</span>?<br>Vale verificar.</div>
+          <div class="b" style="margin-top:4px">Padrões técnicos específicos dessa empresa.</div>
+        </div>
+      </div>
+
+      <!-- Padrão 1 -->
+      <div class="slide bg-white">
+        <div>
+          <div class="tag tag-teal">padrão recorrente · 01</div>
+          <div class="bar"></div>
+          <div class="h" style="font-size:12.5px">Horas extras de promotores e executivos raramente entram na rescisão.</div>
+          <div class="b" style="margin-top:4px">Reflexos em FGTS, 13º e férias frequentemente incompletos.</div>
+        </div>
+      </div>
+
+      <!-- Padrão 2 -->
+      <div class="slide bg-white">
+        <div>
+          <div class="tag tag-teal">padrão recorrente · 02</div>
+          <div class="bar"></div>
+          <div class="h" style="font-size:12.5px">Variáveis e metas com reflexos ignorados.</div>
+          <div class="b" style="margin-top:4px">Bônus e comissões com potencial natureza salarial nem sempre são considerados.</div>
+        </div>
+      </div>
+
+      <!-- Diferencial -->
+      <div class="slide bg-teal-10">
+        <div>
+          <div class="tag tag-teal">por que isso importa</div>
+          <div class="bar"></div>
+          <div class="h" style="font-size:12.5px">Nosso time acompanha padrões específicos de ex-funcionários da Unilever.</div>
+          <div class="b" style="margin-top:4px">Não é uma análise genérica.</div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="slide bg-warm">
+        <div>
+          <div class="bar"></div>
+          <div class="h">Análise inicial<br>gratuita e sigilosa.</div>
+          <div class="b" style="margin-top:4px">Sem compromisso. 10 minutos.</div>
+          <div class="cta">Entender o meu caso</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
