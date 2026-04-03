@@ -26,7 +26,7 @@ Entenda se há valores a receber → [LINK WHATSAPP]
 
 ## Post 2 — Dor principal
 **Objetivo:** Despertar curiosidade em quem "acha que estava tudo certo"
-**Quando postar:** 4 dias após o post 1
+**Quando postar:** 1 dias após o post 1
 
 ---
 
@@ -48,7 +48,7 @@ Entenda se o seu caso vale revisar → [LINK WHATSAPP]
 
 ## Post 3 — Educação
 **Objetivo:** Educar sobre os pontos que mais geram diferenças
-**Quando postar:** 4 dias após o post 2
+**Quando postar:** 1 dias após o post 2
 
 ---
 
@@ -70,7 +70,7 @@ Análise inicial gratuita e sigilosa → [LINK WHATSAPP]
 
 ## Post 4 — Autoridade de nicho
 **Objetivo:** Mostrar que a Revisa é especializada por empresa, não genérica
-**Quando postar:** 4 dias após o post 3
+**Quando postar:** 1 dias após o post 3
 
 ---
 
@@ -90,7 +90,7 @@ Entenda se há valores a receber no seu caso → [LINK WHATSAPP]
 
 ## Post 5 — Quebra de objeção
 **Objetivo:** Reduzir a resistência de quem confunde revisão com processo judicial
-**Quando postar:** 4 dias após o post 4
+**Quando postar:** 1 dias após o post 4
 
 ---
 
