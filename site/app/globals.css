@@ -170,10 +170,10 @@ nav .nav-center {
 .btn-primary svg { width: 20px; height: 20px; }
 
 .hero-note {
-  font-size: 15px;
-  font-weight: 500;
-  color: var(--text-secondary);
-  letter-spacing: 0.04em;
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
 }
 
 .hero-visual {
@@ -828,15 +828,6 @@ nav .nav-center {
   margin-top: 16px;
   max-width: 220px;
 }
-.footer-legal-note {
-  font-size: 11px;
-  font-weight: 300;
-  color: var(--text-muted);
-  line-height: 1.6;
-  margin-top: 12px;
-  max-width: 220px;
-  opacity: 0.7;
-}
 
 .footer-col-title {
   font-size: 10px;
@@ -887,90 +878,6 @@ nav .nav-center {
   display: flex;
   align-items: center;
   gap: 24px;
-}
-
-/* ─── Legal pages ─── */
-.legal-section {
-  margin-bottom: 56px;
-}
-.legal-section-index {
-  display: block;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--teal);
-  margin-bottom: 10px;
-}
-.legal-section-heading {
-  font-family: var(--font-instrument-serif), serif;
-  font-size: clamp(22px, 2.5vw, 28px);
-  font-weight: 400;
-  color: var(--text);
-  line-height: 1.2;
-  margin-bottom: 24px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid var(--gray);
-}
-.legal-section-body p {
-  font-family: var(--font-dm-sans), sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  color: var(--text-muted);
-  line-height: 1.85;
-  margin-bottom: 16px;
-}
-.legal-section-body p:last-child { margin-bottom: 0; }
-.legal-section-body ul {
-  list-style: none;
-  padding: 0;
-  margin: 4px 0 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.legal-section-body ul li {
-  font-family: var(--font-dm-sans), sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  color: var(--text-muted);
-  line-height: 1.7;
-  padding-left: 20px;
-  position: relative;
-}
-.legal-section-body ul li::before {
-  content: '—';
-  position: absolute;
-  left: 0;
-  color: var(--teal);
-}
-.legal-section-body a { color: var(--teal); text-decoration: underline; }
-.legal-callout {
-  border-left: 3px solid var(--teal);
-  background: var(--teal-10);
-  padding: 16px 20px;
-  border-radius: 0 var(--radius) var(--radius) 0;
-  margin: 4px 0 16px;
-}
-.legal-callout p {
-  font-size: 15px !important;
-  color: var(--text) !important;
-  margin-bottom: 0 !important;
-  font-weight: 400 !important;
-}
-.legal-page-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-  margin-top: 64px;
-  padding-top: 32px;
-  border-top: 1px solid var(--gray);
-}
-.legal-page-footer-copy {
-  font-size: 13px;
-  font-weight: 300;
-  color: var(--text-muted);
 }
 
 .footer-legal-link {
@@ -2382,4 +2289,214 @@ footer {
   .artigo-titulo { font-size: clamp(24px, 6vw, 36px); }
   .artigo-cta-final { padding: 28px 24px; }
   .artigo-cta-final-btn { align-self: stretch; text-align: center; justify-content: center; }
+}
+
+/* ════════════════════════════════════════════════
+   RESPONSIVO — MOBILE (≤ 768px)
+   ════════════════════════════════════════════════ */
+
+/* ── Hamburguer styles (always present, display toggled below) ── */
+.nav-hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  z-index: 110;
+}
+.nav-hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+  transition: transform 0.22s ease, opacity 0.22s ease;
+}
+.bar-open-1 { transform: translateY(7px) rotate(45deg); }
+.bar-open-2 { opacity: 0 !important; }
+.bar-open-3 { transform: translateY(-7px) rotate(-45deg); }
+
+/* ── Mobile overlay full-screen ── */
+/*
+ * Cobre 100% da viewport (inset: 0).
+ * O header interno fica fixo no topo do overlay,
+ * e o body interno tem overflow-y: auto — o scroll
+ * acontece dentro do overlay, nunca na página.
+ */
+.nav-mobile-overlay {
+  position: fixed;
+  inset: 0;
+  background: var(--off-white-warm);
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-mobile-overlay-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 65px;
+  border-bottom: 1px solid var(--gray);
+  flex-shrink: 0;
+}
+
+.nav-mobile-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+}
+.nav-mobile-close svg {
+  width: 22px;
+  height: 22px;
+}
+
+.nav-mobile-overlay-body {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 8px 20px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-mobile-link {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--gray);
+  transition: color 0.2s;
+}
+.nav-mobile-link:hover { color: var(--teal); }
+.nav-mobile-link--sub {
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 12px;
+  color: var(--text-muted);
+}
+
+.nav-mobile-section-title {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: 16px 0 8px;
+  border-bottom: 1px solid var(--gray);
+}
+
+.nav-mobile-cta {
+  display: block;
+  margin-top: 16px;
+  background: var(--teal-10);
+  color: var(--teal);
+  border: 1.5px solid var(--teal-20);
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 14px 20px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  text-align: center;
+  transition: background 0.2s;
+}
+.nav-mobile-cta:hover { background: var(--teal-20); }
+
+@media (max-width: 768px) {
+  /* ── Nav ── */
+  nav {
+    padding: 16px 20px;
+  }
+  .nav-center { display: none; }
+  .nav-cta { display: none; }
+  .nav-hamburger { display: flex; }
+  .nav-logo img { width: 140px; height: 40px; }
+
+  /* ── Hero ── */
+  .hero {
+    padding: 88px 20px 56px;
+    min-height: auto;
+  }
+  .hero-inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .hero h1 { font-size: clamp(28px, 8vw, 40px); }
+  .hero p { font-size: 15px; }
+  .hero-actions { flex-direction: column; align-items: flex-start; }
+  .btn-primary { width: 100%; justify-content: center; }
+
+  /* ── Empresas ── */
+  .empresas { padding: 24px 20px; }
+  .empresas-inner { gap: 16px; }
+
+  /* ── Seções genéricas ── */
+  .como-funciona,
+  .depoimentos,
+  .faq,
+  .cta-final,
+  .artigos-blog,
+  .empresa-dor,
+  .empresa-especializacao,
+  .empresa-para-quem,
+  .empresa-o-que-entra,
+  .empresa-sigilo,
+  .empresa-artigos {
+    padding: 64px 20px;
+  }
+
+  /* ── Como Funciona steps ── */
+  .steps { grid-template-columns: 1fr; }
+
+  /* ── Depoimentos ── */
+  .depoimentos-grid { grid-template-columns: 1fr; }
+
+  /* ── Section title ── */
+  .section-title { margin-bottom: 32px; }
+
+  /* ── Artigos Blog ── */
+  .artigos-blog-grid { grid-template-columns: 1fr; }
+  .artigos-blog-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+
+  /* ── Footer expandido ── */
+  .footer-grid-wrap { padding: 40px 20px 32px; }
+  .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+  .footer-bottom-wrap { padding: 16px 20px; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; gap: 12px; }
+
+  /* ── Footer simples ── */
+  footer { padding: 32px 20px; }
+  .footer-inner { flex-direction: column; align-items: flex-start; gap: 12px; }
+
+  /* ── CTA Final ── */
+  .cta-final { padding: 64px 20px; }
+  .btn-white { width: 100%; justify-content: center; }
+
+  /* ── Empresa sections ── */
+  .dor-cards { grid-template-columns: 1fr; }
+  .empresa-especializacao-inner { grid-template-columns: 1fr; gap: 40px; }
+  .o-que-entra-list { grid-template-columns: 1fr; }
+  .sigilo-items { grid-template-columns: 1fr; }
+  .empresa-artigos-grid { grid-template-columns: 1fr; }
+  .empresa-artigos-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+
+  /* ── Blog ── */
+  .blog-hero { padding: 100px 20px 48px; }
+  .blog-main { padding: 40px 20px 64px; }
+  .blog-layout { grid-template-columns: 1fr; gap: 40px; }
+  .blog-sidebar { position: static; }
+  .blog-featured { grid-template-columns: 1fr; }
 }

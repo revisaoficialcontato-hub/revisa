@@ -14,10 +14,7 @@ export default function Footer() {
               <img src="/logo.png" alt="Revisa" />
             </a>
             <p className="footer-tagline">
-              Plataforma de revisão técnica de direitos trabalhistas para ex-funcionários de grandes empresas.
-            </p>
-            <p className="footer-legal-note">
-              A Revisa atua na comunicação, triagem inicial e organização do atendimento. A operação digital e o tratamento inicial dos dados são realizados por Vértice Gestão de Ativos Ltda.
+              Revisão técnica de direitos trabalhistas para ex-funcionários de grandes empresas.
             </p>
           </div>
 
@@ -63,9 +60,9 @@ export default function Footer() {
         <div className="footer-bottom">
           <span className="footer-copyright">© 2026 Revisa · Todos os direitos reservados</span>
           <div className="footer-legal">
-            <a href="/privacidade" className="footer-legal-link">Privacidade</a>
-            <a href="/termos" className="footer-legal-link">Termos de uso</a>
-            <a href={WA} target="_blank" rel="noopener noreferrer" className="footer-legal-link">Canal de Contato</a>
+            <a href="#" className="footer-legal-link">Privacidade</a>
+            <a href="#" className="footer-legal-link">Termos de uso</a>
+            <a href={WA} target="_blank" rel="noopener noreferrer" className="footer-legal-link">Contato</a>
           </div>
         </div>
       </div>

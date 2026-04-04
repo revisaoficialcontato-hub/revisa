@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 
 type TocItem = { id: string; text: string }
 
-export default function TocNav({ items, title = 'Neste artigo' }: { items: TocItem[]; title?: string }) {
+export default function TocNav({ items, title }: { items: TocItem[]; title?: string }) {
   const [activeId, setActiveId] = useState<string>('')
 
   useEffect(() => {
@@ -37,7 +37,7 @@ export default function TocNav({ items, title = 'Neste artigo' }: { items: TocIt
 
   return (
     <div className="sidebar-block artigo-toc">
-      <h4 className="sidebar-title">{title}</h4>
+      <h4 className="sidebar-title">{title ?? 'Neste artigo'}</h4>
       <ul className="artigo-toc-list">
         {items.map((item) => (
           <li key={item.id} className="artigo-toc-item">
