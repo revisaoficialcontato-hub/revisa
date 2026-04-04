@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--
+    ASSUNTO: {{first_name}}, último recado da Revisa
+    PREHEADER: Se saiu nos últimos 2 anos, ainda há tempo de entender o que está ali.
+    ESTRATÉGIAS DE ENTREGABILIDADE:
+      - Layout de texto simples, sem imagens ou colunas múltiplas
+      - Relação texto/link alta para evitar filtros promocionais
+      - Linguagem pessoal e direta, sem gatilhos de marketing
+      - Nenhum uso de "grátis", "oferta", "promoção", "desconto"
+      - Preheader natural com contexto útil
+      - Sem fundo colorido ou elementos visuais pesados
+  -->
+  <title>Email 3 — Urgência leve</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1a1a;
+    }
+
+    .email-wrapper {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+    }
+
+    .email-header {
+      padding: 28px 40px 20px;
+      border-bottom: 1px solid #f0f0f0;
+      background-color: #ffffff;
+    }
+
+    /* logo rendered as image */
+
+    .email-body {
+      padding: 36px 40px 32px;
+    }
+
+    .greeting {
+      font-size: 16px;
+      color: #1a1a1a;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 15.5px;
+      color: #333333;
+      line-height: 1.75;
+      margin-bottom: 18px;
+    }
+
+    .recap-box {
+      margin: 24px 0;
+      padding: 20px 24px;
+      background-color: #f7f7f7;
+      border-radius: 6px;
+    }
+
+    .recap-box p {
+      font-size: 15px;
+      color: #444444;
+      margin-bottom: 0;
+    }
+
+    .recap-box strong {
+      color: #1a1a1a;
+    }
+
+    .cta-block {
+      margin: 28px 0;
+      padding: 24px 28px;
+      background-color: #fafafa;
+      border-left: 3px solid #1a1a1a;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .cta-block p {
+      font-size: 15px;
+      color: #333333;
+      margin-bottom: 14px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: #1a1a1a;
+      color: #ffffff !important;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 12px 24px;
+      border-radius: 6px;
+      letter-spacing: 0.02em;
+    }
+
+    .closing-note {
+      font-size: 14.5px;
+      color: #888888;
+      font-style: italic;
+      margin-top: 6px;
+    }
+
+    .signature {
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid #f0f0f0;
+    }
+
+    .signature .name {
+      font-size: 15px;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+
+    .signature .company {
+      font-size: 13px;
+      color: #888888;
+      margin-top: 2px;
+    }
+
+    .email-footer {
+      padding: 20px 40px 28px;
+      border-top: 1px solid #f0f0f0;
+    }
+
+    .footer-text {
+      font-size: 12px;
+      color: #aaaaaa;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 600px) {
+      .email-header,
+      .email-body,
+      .email-footer {
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Preheader invisível -->
+  <div style="display:none;max-height:0;overflow:hidden;color:#ffffff;font-size:1px;">
+    Se saiu nos últimos 2 anos, ainda há tempo de entender o que está ali. Análise sigilosa, sem compromisso.
+    &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+  </div>
+
+  <div class="email-wrapper">
+
+    <!-- Cabeçalho -->
+    <div class="email-header">
+      <div style="width:136px;height:57px;overflow:hidden;display:inline-block;line-height:0;"><img src="https://i.imgur.com/RraSGsN.png" alt="Revisa" style="width:216px;height:auto;display:block;margin-left:-40px;margin-top:-73px;" /></div>
+    </div>
+
+    <!-- Corpo -->
+    <div class="email-body">
+
+      <p class="greeting">Oi, <strong>{{first_name}}</strong>!</p>
+
+      <p>
+        Essa é minha última mensagem por aqui — não quero tomar mais o seu tempo
+        do que o necessário.
+      </p>
+
+      <p>
+        Nos últimos dias te apresentei como a Revisa faz revisão técnica de
+        direitos trabalhistas para ex-funcionários de empresas como a
+        <strong>{{company}}</strong>. Quero deixar o convite aberto
+        de forma clara:
+      </p>
+
+      <div class="recap-box">
+        <p>
+          Se você saiu da <strong>{{company}}</strong> nos últimos
+          2 anos, ainda dá tempo de entender se há valores que merecem revisão.
+          A análise é sigilosa e sem compromisso — o primeiro passo é só entender
+          o que está ali.
+        </p>
+      </div>
+
+      <div class="cta-block">
+        <p>Se quiser, é só chamar.</p>
+        <a href="https://api.whatsapp.com/send/?phone=5511990066495&text=Ol%C3%A1%21+Gostaria+de+entender+se+tenho+valores+a+receber+da+minha+rescis%C3%A3o.+%5BEmail%5D&type=phone_number&app_absent=0" class="cta-button">Falar com a Revisa →</a>
+        <p class="closing-note">Se não for o momento certo agora, tudo bem.</p>
+      </div>
+
+      <div class="signature">
+        <p class="name">Equipe Revisa</p>
+      </div>
+
+    </div>
+
+    <!-- Rodapé -->
+    <div class="email-footer">
+      <p class="footer-text">
+        Você recebeu este email porque seu perfil é relevante para o trabalho que realizamos.
+        Caso não queira mais receber mensagens, é só responder com "remover" — essa foi a última mensagem desta sequência.
+      </p>
+    </div>
+
+  </div>
+
+</body>
+</html>

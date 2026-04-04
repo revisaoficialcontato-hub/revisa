@@ -61,7 +61,7 @@ Oi, `[NOME]`!
 
 Última mensagem da minha parte — não quero ser inconveniente.
 
-Se você trabalhou na `[EMPRESA DO DESTINATÁRIO]` e saiu nos últimos 2 anos, ainda dá tempo de entender se há valores que merecem revisão. A análise é gratuita, sigilosa e sem compromisso.
+Se você trabalhou na `[EMPRESA DO DESTINATÁRIO]` e saiu nos últimos 2 anos, ainda dá tempo de entender se há valores que merecem revisão. A análise é sigilosa e sem compromisso.
 
 Se não for o momento certo, tudo bem. Mas se quiser, é só chamar:
 
