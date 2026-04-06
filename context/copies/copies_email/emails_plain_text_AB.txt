@@ -1,0 +1,96 @@
+================================================================
+EMAIL 1 - APRESENTAÇÃO | VERSÃO TEXTO SIMPLES (A/B)
+================================================================
+
+ASSUNTO:
+{{first_name}}, você sabe se todos os seus direitos foram pagos corretamente ao sair da {{company}}?
+
+CORPO:
+---
+
+Olá, {{first_name}}!
+
+Muita gente sai de uma grande empresa achando que recebeu tudo corretamente. Na maioria dos casos, nunca houve uma leitura técnica real do histórico: rescisão, remuneração variável, metas, jornada, reflexos, horas extras.
+
+A Revisa existe para fazer essa análise para ex-funcionários de empresas como a {{company}}.
+
+O que fazemos
+
+Uma revisão técnica e sigilosa para identificar se há valores que podem não ter sido corretamente pagos ao longo do vínculo de trabalho ou no desligamento. Se não houver nada relevante, ótimo. Se houver, você entende o que está ali antes de decidir qualquer próximo passo.
+
+A análise inicial é sigilosa e sem compromisso. Quer entender se o seu caso faz sentido revisar?
+
+→ Falar com a Revisa: https://api.whatsapp.com/send/?phone=5511990066495&text=Ol%C3%A1%21+Gostaria+de+entender+se+tenho+valores+a+receber+da+minha+rescis%C3%A3o.+%5BEmail%5D&type=phone_number&app_absent=0
+
+Equipe Revisa
+
+---
+Você recebeu este email porque seu perfil é relevante para o trabalho que realizamos.
+Caso não queira mais receber mensagens, é só responder com "remover".
+
+
+================================================================
+EMAIL 2 - APROFUNDAMENTO | VERSÃO TEXTO SIMPLES (A/B)
+================================================================
+
+ASSUNTO:
+{{first_name}}, uma revisão genérica raramente encontra o que importa
+
+CORPO:
+---
+
+Oi, {{first_name}}!
+
+Te mandei uma mensagem há dois dias sobre a análise de direitos trabalhistas para ex-funcionários da {{company}}.
+
+Quero reforçar um ponto: cada empresa tem rotinas de pagamento, políticas de remuneração variável e práticas de jornada que são específicas daquele empregador. Quando a revisão considera o histórico da {{company}}, e não um modelo padrão, os padrões relevantes aparecem com muito mais clareza.
+
+Na prática, analisamos pontos como:
+
+• Horas extras, metas, bônus e remuneração variável
+• Reflexos em férias, 13º, FGTS e verbas rescisórias
+• Inconsistências de jornada e condições de trabalho
+• Pontos da rescisão que podem não refletir todo o histórico do vínculo
+
+É a diferença entre uma leitura superficial e uma revisão técnica de verdade.
+
+A análise é sigilosa, objetiva e sem compromisso. Você decide o próximo passo só depois de entender o que está ali.
+
+→ Conversar sobre o meu caso: https://api.whatsapp.com/send/?phone=5511990066495&text=Ol%C3%A1%21+Gostaria+de+entender+se+tenho+valores+a+receber+da+minha+rescis%C3%A3o.+%5BEmail%5D&type=phone_number&app_absent=0
+
+Equipe Revisa
+
+---
+Você recebeu este email porque seu perfil é relevante para o trabalho que realizamos.
+Caso não queira mais receber mensagens, é só responder com "remover".
+
+
+================================================================
+EMAIL 3 - URGÊNCIA | VERSÃO TEXTO SIMPLES (A/B)
+================================================================
+
+ASSUNTO:
+{{first_name}}, último recado da Revisa
+
+CORPO:
+---
+
+Oi, {{first_name}}!
+
+Essa é minha última mensagem por aqui. Não quero tomar mais o seu tempo do que o necessário.
+
+Nos últimos dias te apresentei como a Revisa faz revisão técnica de direitos trabalhistas para ex-funcionários de empresas como a {{company}}. Quero deixar o convite aberto de forma clara:
+
+Se você saiu da {{company}} nos últimos 2 anos, ainda dá tempo de entender se há valores que merecem revisão. A análise é sigilosa e sem compromisso. O primeiro passo é só entender o que está ali.
+
+Se quiser, é só chamar:
+
+→ Falar com a Revisa: https://api.whatsapp.com/send/?phone=5511990066495&text=Ol%C3%A1%21+Gostaria+de+entender+se+tenho+valores+a+receber+da+minha+rescis%C3%A3o.+%5BEmail%5D&type=phone_number&app_absent=0
+
+Se não for o momento certo agora, tudo bem.
+
+Equipe Revisa
+
+---
+Você recebeu este email porque seu perfil é relevante para o trabalho que realizamos.
+Caso não queira mais receber mensagens, é só responder com "remover". Essa foi a última mensagem desta sequência.
