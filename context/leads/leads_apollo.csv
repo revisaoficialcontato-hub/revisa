@@ -1,0 +1,625 @@
+First Name,Last Name,Email,Company,Title,Phone,LinkedIn URL
+Eduardo,Mamede,eduardo_vitrio@yahoo.com.br,Unilever,Executivo de negócios Unilever,21973252877,
+Andrea,Costa Viana,andrea.costav@gmail.com,Unilever,vendedora,21996854655,
+Luiz,Carlos Silva,luizcarica.silva@gmail.com,Unilever,vendas,34984106761,
+João,Felipe Nebó,nebo@outlook.com.br,Unilever,Coordenador de assuntos regulatórios,19992669238,
+Alisson,Nunes Fonseca,,Unilever,vendendor externo,31975633269,
+Aline,Novaes Soeiro Magalhães,alinennovaes@gmail.com,Unilever,Coordenador de markenting,11911958731,
+Larissa,Nader,larissanader@hotmail.com,Unilever,Coordenador de mercado,11981017047,
+Cesar,Augusto Sabbag,cesarsabbag@outlook.com,Unilever,Coordenador de vendas,11998998752,
+Bruno,Maciel,gomesmacielbruno@gmail.com,Unilever,Executivo de negócios Sênior,31995328218,
+Josanias,Boshammer,josaniasboshammer@gmail.com,Unilever,Coordenador de dados,11930364147,
+Rafael,Netto,rafael.netto3@gmail.com,Unilever,gerente regional de vendas,16996415811,
+Filipe,Fernandes,fi.fernandes@hotmail.com,Unilever,S&OP Demand Planning,13997555394,
+Darling,Alves,darlingsuelen@hotmail.com,Unilever,Executivo de negócios,11940022669,
+Fabiana,Oliveira,fabianadamiao17@gmail.com,Unilever,estágiaria de vendas,11930043474,
+Camila,Romano,camila_romanos@hotmail.com,Unilever,Executiva de negócios sênior,11976627270,
+Filipe,Fernandes,ff.performanceexponencial@gmail.com,Unilever,S&OP Demand Planning,11996432268,
+Talita,Agostini,talitaagostini3349@gmail.com,Unilever,Pricing Analyst,,
+Mariana,Cavesso de Araújo,mari.cavesso@hotmail.com,Unilever,gerente de markenting,11912654177,
+Roberta,Ferreira Lopes,robertalopes469@gmail.com,Unilever,executivo de vendas sênior,21999324537,
+Eder,Pereira,ederepcosta81@gmail.com,Unilever,Vendedor de sorvete,11941663973,
+Murilo,Alvino,murilo.alvino@unilever.com,Unilever,Executivo de contas comerciais,73981526534,
+Pedro,Sampaio,pedro.sampaio@diageo.com,Unilever,Executivo de negócios,61984989946,
+Vladimir,Ribeiro,vladimir.ribeiro@farmax.com.br,Unilever,Executivo de vendas sênior,86999819390,
+Joaquim,Neto,joaquim.neto@limppano.com.br,Unilever,Consultor de Vendas,,
+Rafael,Coutinho,rafael.coutinho@britvic.com,Unilever,Profissional de Merchandising,,
+Airton,Araújo,airton.araujo@generalmills.com,Unilever,Executivo de vendas - Gestor de execução - Promotor de vendas,,
+Daniel,Cunha,,Unilever,Promotor de merchandising - Promotor Líder - Executivo de negócios,27999663919,
+Raquel,Silveira,raquel.silveira@vitamedic.ind.br,Unilever,Executiva de desenvolvimento de negócios,21964484845,
+Fabiano,Nascimento,fabinpereira@gmail.com,Unilever,Vendedor,62996189768,
+Roberto,Ribeiro,roberto.ribeiro@vigor.com.br,Unilever,Coordenador de vendas,21968814040,
+Reginaldo,Castro,reginaldo.castro@pimpinella.com.br,Unilever,Vendedor de Auto Serviço Kibom,,
+João,Oliveira,joao.oliveira@cantodeminas.com.br,Unilever,Vendedor - Supervisor,,
+Ricardo,Belarmino,ricardobelarminofreitas@gmail.com,Unilever,Executivo de vendas,77991017836,
+Adriel,Ferreira Dantas,adrielfd@gmail.com,Unilever,Promotor de Líder de Merchadising - Executivo de vendas,85986897115,
+Paula,Borba,paula.borba@bat.com,Unilever,Analista de dados pleno - Analista de dados sênior,81981482396,
+Ana,Paula Miranda Cunha,anapmcunha@yahoo.com.br,Unilever,"Project Lead, E-commerce e TI e-coa/Compra Agora",11984019121,
+Andrea,Guedes Motta,andrea.motta@syngenta.com,Unilever,Coordenador de controle de projetos,11991754150,
+Mara,Regina Souza Idemicio,mara.souza@mococa.com.br,Unilever,Supervisor de merchandising - Coordenador de merchandising,92981720403,
+Tatiane,Giglioti,tati.giglioti@hotmail.com,Unilever,Analista de Trade Marketing,1150318692,
+Daniele,Cardoso,danielecardoso@yahoo.com.br,Unilever,Executiva de Negócios,219919636292136564042,
+Paula,Chu,paulachueri@hotmail.com,Unilever,Coordenadora de Projetos de Logística,11930005455,
+Deborah,Lina Monte da Silva,deborah.lina@yahoo.com.br,Unilever,Consultora de relacionamento,31984403877,
+Egilson,Calixto da Silva,egilsoncalixto@hotmail.com,Unilever,Vendedor,84988741204,
+Jadiane,de Jesus Tenorio Braga,jadibraga2@gmail.com,Unilever,Executiva de Negócios,91996136508,
+Samuel,Kineippe Gonçalves,skineippe@gmail.com,Unilever,Environmental Coordinator - Coordenador de Utilidades & Meio Ambiente - Maintenance and Utilites,19981819209,
+Ninfer,Vareiro Faria,ninfer.f@gmail.com,Unilever,Coordenador Customer Mkt Logística Promocional - Coord. Costumer Mkt Data & Performance - Coord. Trade Marketing - Nutrition,19992974739,
+Fabio,Intini,carol_polito@terra.com.br,MONDELEZ,Sales Representative,19981832494,
+Itiene,Mendes Ferreira Filho,itiene.mendes@gmail.com,MONDELEZ,Executive Acoount,63999691990,
+Siveraldo,Machado da Silva,smachadosilva74@yahoo.com.br,MONDELEZ,Vendedor Key Account Geral - Supervisor de Merchandising - Coordenador de Vendas SMR,11967540545,
+Everton,Dias Leite de Andrade,leite.everton@hotmail.com,MONDELEZ,Executivo de Contas,61985519491,
+Rosivaldo,Medeiros da Cunha,rosivaldo_cunha@yahoo.com.br,MONDELEZ,Representante de Vendas Sênior - Executivo de Vendas SR,81996128067,
+Danilo,Roque Lopes da Silva,danillo.roque@gmail.com,MONDELEZ,Coordenador de Trade Marketing | Campanhas,11981232416,
+Renato,Monteiro Dairell,renatodairell@gmail.com,MONDELEZ,Coordenador de Merchandising - Vendedor Sênior,11992141306,
+Mayara,Santos Souza Mamede,mayaramamede@hotmail.com,MONDELEZ,Representante executivo de vendas,34991771778,
+Rodrigo,Ventura da Silva,rventura1407@gmail.com,MONDELEZ,Vendedor - Executivo de Vendas Sênior,71991258606,
+Priscilla,Leao Rabelo,priscillaleao1@hotmail.com,MONDELEZ,Executivo de Contas Sênior,92981708585,
+Raquel,Mendes Calil,rqcalil2@gmail.com,MONDELEZ,Gerente Sênior de Gestão de Projetos Brasil - Gerente Sênior de Planejamento de Demanda - Gerente Sênior de Desenvolvimento de Negócios,41988076742,
+Viviana,Ferreira de Oliveira Sousa,oliveiraviviana44@gmail.com,MONDELEZ,Executiva de Vendas,11967858094,
+Daniela,Noely de Assis,danielanoely@gmail.com,MONDELEZ,Coordenadora de Vendas,31984075450,
+Nathalia,Martin Franco,nathalia@hotmail.com,MONDELEZ,Executivo de Vendas,11983894240,
+Divaldo,Neto,divaldo.neto@outlook.com,MONDELEZ,Executivo de Vendas,11969720571,
+Izac,Marcio da Silva Oliveira,izac_marcio@hotmail.com,Danone,Gerente de área - Gerente de Conta,84996593032,
+Carolina,Elisa Cunha,carolina.nutri@gmail.com,Danone,Representante de Visitas Médicas,31994242055,
+Maria,Toesca Tonett,toesca.maria@lactalis.es,Danone,Analista Pleno de Vendas - Supervisora de Vendas,49999980504,
+Wendel,Correa,wendelc@bauducco.com.br,NEUGEBAUER,Supervisor de Vendas,61996947611,
+Maykson,Allan de Oliveira,maykson_allan@hotmail.com,Nestle,Promotor de Marchandising,85988104389,
+Edson,Diniz Paim,edsonpaim@hotmail.com,Nestle,Profissional de Marchandising,51992646547,
+Adriany,Rose da Silva,,Nestle,Promotor de Vendas,81989831276,
+Revyson,Lopes Leal,,Nestle,Promotor de Merchandising - Executivo de Vendas,75981017419,
+Lucimagna,Ferreira,,Nestle,Promotor de Vendas,85986542430,
+Cleisson,Duarte Camara Dias,cleissonduarte.inova@gmail.com,Nestle,Vendedor,21985047750,
+Kayth,Dayane Lima Lopes,kayth.d@hotmail.com,Nestle,Repositor,31993769482,
+Julia,Souza de Lima,,Nestle,Promotora de Vendas,14997925204,
+Ithalo,Martins da Cruz,ithalo1988cruz@hotmail.com,Nestle,Supervisor de Vendas,31999661105,
+Everton,Batista Mariano,e.b.mariano@hotmail.com,Nestle,Promotor de vendas,83987386480,
+Marcelo,Pinheiro Pereira,marcelo.p.pereira@hotmail.com,Nestle,Supervisor de vendas,11991662943,
+Claudio,Domingos Gonçalves de Carvalho,claudiocarvalho@gmail.com,Nestle,Atendimento ao cliente,85997492940,
+Juliana,Bento Amado Yoshida,julianabentoamado@hotmail.com,Nestle,Analista de Melhoria Contínua,16981528104,
+Allan,Braga Cavalcante,allanbragac@yahoo.com,Nestle,Executivo de Vendas Sênior,85986784338,
+Keyth,Queiroz de Sousa,kqueiroznobre@gmail.com,Nestle,Consultora de Boutique Jr,11979782510,
+Rodrigo,Salgueiro Lima,rodrigosalgueirolima@gmail.com,Nestle,Especialista em vendas,81996641154,
+Kaue,Alves Baptista,,Nestle,Vendedor,43984178767,
+Junio,Cesar de Moura,junio-moura@hotmail.com,Britvic,Executivo de vendas,34991079595,
+João,Felipe Machado de Souza Monteiro,joaofmmonteiro@hotmail.com,Itambé,Marketing Comercial,31986810163,
+Marcos,Arquimedes Frois,marquimedes@grupopetropolis.com.br,Itambé,Promotor de vendas,31986296376,
+Deise,Moreira de Souza,deise30_moreira@hotmail.com,Itambé,Promotora de vendas,66996710745,
+Jose,Ricardo Castilho,jricardocastilho82@gmail.com,Itambé,Coordenador de vendas,18997925411,
+Livia,Portela de Sá,portela.livinha@gmail.com,Itambé,Coordenadora de Vendas Varejo,11975994664,
+Marcelo,Palhao,,Itambé,Vendedor,66996023380,
+Luelzi,de Melo Cirpiano,dgascmo@gmail.com,PepsiCo,Promotora de Vendas,81997484346,
+Julia,Keldima da Silva Alves,julia.keldimasm@gmail.com,PepsiCo,Promotora de Vendas,85988350149,
+Patricia,Daniela Sebastiao Padilha,padilhapatricia44@gmail.com,PepsiCo,Promotora de Vendas,19987057722,
+Fabio,da Silva Soria,fabio.soria@hotmail.com,PepsiCo,Vendedor Plus,53984072885,
+Monike,de Lima Rodrigues,monikedelima_@hotmail.com,PepsiCo,Gerente de Vendas,45999294947,
+Cristofer,Correa Macedo,correa.cristofer87@gmail.com,PepsiCo,Vendedor Sênior,53984261656,
+Jhonny,Rodrigues de Oliveira,jhonnyrodrigues20@gmail.com,PepsiCo,Vendedor,61999485114,
+Danuza,Esteves de Medeiros,danielesteves77@gmail.com,PepsiCo,Gerente de Vendas,55999102070,
+Mariana,Pignone Caldeira,maripignone@gmail.com,PepsiCo,Vendas,21977372531,
+Diego,Knebel,,Nestlé,Promotor de vendas,51997743463,
+Silvio,Amorim de Sousa,,Nestlé,Promotor de vendas,62992620360,
+Marcio,Eduardo Quevedo Camargo,daducamargo@gmail.com,PepsiCo,Vendedor,53999481821,
+Leonardo,Lorencetti,leo.lorencetti@gmail.com,Nestlé,Vendedor,11978476244,
+Eloisa,Crdoso Lucindo,eloisacardosolucindo64917@gmail.com,Marilan,Atendimento ao Cliente,14997522602,
+Jefferson,Erick Andrade de Oliveira,erick1768@gmail.com,Nestlé,Profissional de Merchandising,41992515268,
+Willian,Augusto,willian@dacolonia.com.br,Marilan,Promotor de vendas,,
+Philip,Nedel,philip.nedel@hotmail.com,PepsiCo,Vendedor,51998192087,
+Edemilson,Lobo Malinoski,edmilsonlobo3@gmail.com,Nestlé,Supervisor de Vendas,41987169460,
+Daniel,Rodrigues Gomes,dgomes22@gmail.com,Nestlé,Vendedor,63984729708,
+Harison,Rodrigues Berreza,harison_rodrigues@hotmail.com,Nestlé,Coordenador de Negócio e Distribuição,84987888283,
+Hayana,Freitas Ciuffa,hayana.ciuffa@outlook.com,PepsiCo,Promotor de vendas,43996340122,
+Ramon,Francelino Martins Magalhaes Caval,ramonjoy@gmail.com,Nestlé,Supervisor de vendas,38999978423,
+Eulizete,Silva,,PepsiCo,Promotor de vendas,11941188310,
+Jeferson,Luiz Borges,jeferson_luiz_@hotmail.com,PepsiCo,Vendedor externo,22998798122,
+Iranaide,Rocha da Silva,naidinha2603@gmail.com,Danone,Promotora de Merchandising,84988408334,
+Isabella,Figliagi Guimaraes,,Nestlé,Estagiária de vendas,17996769279,
+Bianca,Mezzalira,b.mezzalira@hotmail.com,Nestlé,Especialista de Trade Marketing,11952107449,
+Walmira,Souza da Silva,walmira.souza@bol.com.br,PepsiCo,Promotora de vendas,11967733426,
+Rayanne,Batista Rosa,rayanne.brosa@outlook.com,Nestlé,Engenharia de projetos,31995832645,
+Gabriel,de Moraes Tardelli Pereira,tardelli35@gmail.com,Nestlé,Chefe de Mídia Brasil,11994681577,
+Francine,Braga Raymundo,fran_brag@hotmail.com,Unilever,Coordenador Sr de qualidade,11984532461,
+Guilherme,Cruz,gulilherme.cruz@jsjconsultoria.com.br,Unilever,Coordenador de projetos,35991926594,
+Renato,da Silva Dacio,renatodacio98@gmail.com,Unilever,Marketing,81995743546,
+Rafael,Chaves Queiroz,rafaelqueirozchaves@gmail.com,Unilever,Consultor de negócios,11971902387,
+Vanilson,Aguiar Delfino,vanilsonaguiar@natulab.com.br,Unilever,Profissional de merchandising,47999638869,
+Debora,Talita Pires,deboratalitap@gmail.com,Unilever,Profissional de merchandising,17991292252,
+Erika,Cristine Batistela,erikabatistela@yahoo.com.br,Unilever,Supervisora de merchandising,19988029608,
+Fatima,Pereira,fatima.pereira@campari.com,Unilever,Executiva de vendas sênior,,
+Hellem,Noemy Luz Navarro de Sousa,hellem.navarros@hotmail.com,Unilever,Líder de Negócio,11983672911,
+Sanielson,Barros Oliveira,sanielsonbarros@hotmail.com,Unilever,Supervisor de vendas,61993044173,
+Lilian,Cavallari Rossato,lilianrossato201430@gmail.com,Unilever,Executiva de merchandising,19992884322,
+Cleberson,Alves,alves141292@gmail.com,PepsiCo,Vendedor,42998589402,
+Daniel,Ramos Leonel,davileonel.on@gmail.com,Nestlé,Profissional de merchandising,85997957722,
+Juliana,Flavia Brito Felicio,julianaflab@hotmail.com,Unilever,Executiva de vendas sênior,19993452909,
+Lhayenny,Rhistaynne Lira de Oliveira,lhayenny@hotmail.com,Unilever,Coordenadora de adminstração de vendas,81982239945,
+Mayara,Martinelli Borba Yamashiro,mayara.mborba@gmail.com,Nestlé,Supervisora de vendas,11994491474,
+Fabiano,de Bastos Lima,fabiano_bl@hotmail.com,Marilan,Coordenador de vendas,11971078963,
+Andrea,Cantovitz Espinosa,andreacantovitz@hotmail.com,Unilever,Supervisora de vendas,12988134988,
+Lucas,Zago de Melo,luzago03@hotmail.com,Unilever,Cordenador de manufatura senior,19997121209,
+Jovane,Dias Eduardo,jovane.eduardo72@gmail.com,Unilever,Vendedor,14996226434,
+Diego,Lopes,diegolj@yahoo.com.br,Nestlé,Executivo de vendas,11946900071,
+Douglas,Bastos de Freitas Rocha,douglasbastosfr@gmail.com,Unilever,Vendedor,61993310731,
+Felipe,Paes dos Santos,felipesantos@gmail.com,PepsiCo,Estrategista de vendas,11972751293,
+Ederson,Suonski,esuonski@darnelgroup.com,PepsiCo,Vendedor,41999247928,
+Kerolly,Almeida de Souza,kellsouza104@gmail.com,PepsiCo,Promotor de vendas,81986652448,
+Alexandre,Frasson,alexandrefrasson@hotmail.com,PepsiCo,Gerente de vendas,92981216113,
+Wilian,Jordao,wilianjordao@gmail.com,PepsiCo,Coordenador de merchandising,21991511612,
+Andre,Constante Araujo,andre.constante@gmail.com,PepsiCo,Gerente de vendas,19991768287,
+Wagner,William Dellabarba Poianas,dellapoianas@hotmail.com,PepsiCo,Gerente de vendas,11988188414,
+William,Souza Dutra,wsdutra@bol.com.br,PepsiCo,Vendedor,34988310010,
+Lidiane,de Oliveira Mesquita,lid.mesquita@hotmail.com,Marilan,Promotora de vendas,31984727217,
+Michele,Cervantes Lima,michelecervantes@hotmail.com,Britvic,Gerente de Vendas,11982579630,
+Cleber,Carlos Jardim,cleber.c.jardim@hotmail.com,PepsiCo,Vendedor,44998104509,
+Cinthya,Maria Carvalho de Souza,,PepsiCo,Promotora de vendas,91996169032,
+Karla,Regina de Andrade,karlaecmg@hotmail.com,Marilan,Executivo de vendas,31991370324,
+Samara,Allane da Silva,samaraallane@hotmail.com,Marilan,Promotora de vendas,82991858140,
+Thayna,Waynea Mendonca Leite,mthayna98@gmail.com,PepsiCo,Promotora de vendas,11951407959,
+Rosiane,Braga Santos Roberto,rosianebragasts@gmail.com,PepsiCo,Promotora de vendas,41999066278,
+Marcus,Marcondes Matias da Silva,marcus.marcondes@gmail.com,Marilan,Promotor de vendas,87988138618,
+Henrique,Cardili,henrique.cardili@gmail.com,PepsiCo,Regional Sales Manager,11993773523,
+Danielle,Dionisio de Oliveira,danielledionisio26@gmail.com,Unilever,Coordenadora senior de desenvolvimento,21974810207,
+Cristina,Alves de Souza,cristina-asouza@outlook.com,PepsiCo,Sales Manager,15996643470,
+Luis,Miguel de Oliveira Nascimento,lmnasci@hotmail.com,PepsiCo,Senior Sales Director,11976017885,
+Isaac,da Paz Goncalves,isakegoncales@gmail.com,PepsiCo,Promotor de vendas,98981559420,
+Leandro,Carlos Pazinatto,leandropazinatto@outlook.com,Marilan,Promotor de vendas,55999383639,
+Felipe,Charchar Costa,felipe.charchar@hotmail.com,Marilan,Promotor de vendas,91984180644,
+Audrey,Pettinari Moraes,audreypettinari.moraes@gmail.com,PepsiCo,Gerente de vendas,11972865626,
+Mayara,Aparecida de Medeiros,,PepsiCo,Gerente de vendas,47991909786,
+Jully,Thais dos Santos Oliveira,jully.thais04@hotmail.com,Marilan,Promotor de vendas,73999554961,
+Marco,Pollo Andrade Mendes de Azevedo,marcopazevedo@hotmail.com,Marilan,Coordenador de vendas,81998419630,
+Heverton,de Freitas Matesco,hfmatesco@gmail.com,Marilan,Coordenador de vendas,11988760395,
+Larissa,Messias de Jesus Santos,l.a.r.y@hotmail.com,Marilan,Coordenador de merchandising,71985167651,
+Alison,Carlos Mergulhao,alison.258@hotmail.com,Marilan,Vendedor,43999272634,
+Marcos,Viana dos Santos,marcosvianajti@gmail.com,PepsiCo,Representante de vendas,64992370503,
+Marcio,Roberto Sandoval Mendonca,marciorsmendonca@gmail.com,PepsiCo,Sales Manager,35984266685,
+Christiane,Alves Santos,,PepsiCo,Sales Manager,31983915530,
+Camila,Farias da Silva Santiago,,Marilan,Executiva de vendas,85981675822,
+Marcela,Sanches Pinto,sanchesmarcela042@gmail.com,Marilan,Supervisora Trade Marketing,149811761511499106989414998141849,https://www.linkedin.com/in/marcela-sanches-trade/
+Rafael,Henequim,rafaelhenequim@hotmail.com,Marilan,Executivo de contas,41996115476,
+Jackson,Brito Santos,j.bito@hotmail.com,Marilan,Promotor de vendas,27997345310,
+Vinicius,Borges Martins,martins.vinicius@gmail.com,PepsiCo,Gerente regional sênior,54996708382,
+Cleverton,Marques Honorato,clevertonmarques@yahoo.com.br,PepsiCo,Consultor de vendas externas,42999764853,
+Vinicius,Lizo Cartaxo,vini_since1988@hotmail.com,PepsiCo,Gerente regional de vendas,11974947794,
+Gilbert,Luiz do Rosario,gilbertbh@gmail.com,Itambé,Coordenador de produto,31984059989,https://www.linkedin.com/in/gilbert-luiz-29199026/
+Rafaela,Randala Araujo Ribeiro,rafaeladidel@gmail.com,Itambé,Representante comercial,88997550804,
+Everton,Luiz de Oliveira Baisso,ebaisso@hotmail.com,PepsiCo,Gerente de vendas,17991913684,
+Carlos,Eduardo Zanetti,carloszanetti.81@gmail.com,Britvic,Vendedor Pleno,16997390326,
+Alexandre,Gomes Sant Anna,alexandresantanna@outlook.com,Britvic,Executivo de vendas,16992353731,https://www.linkedin.com/in/alexandre-gomes-sant-anna-31bb852a/
+Andre,Henrique Corlino,andre.corlino@gmail.com,Britvic,Supervisor de trade marketing,19997383551,https://www.linkedin.com/in/andre-corlino-b2076b44/
+Danyllo,Silva de Souza,danylloaabb95@hotmail.com,Britvic,Gerente de vendas,21993980513,
+Cesar,Sabbagh Namur,,Unilever,Coordenador de vendas,27999770777,
+Cesar,Augusto Correa,cesarcorrea@hotmail.com,Danone,Gerente de vendas,48984561167,
+Gedeon,Sanches Moura,,Nestlé,Vendas,22981121483,https://www.linkedin.com/in/gedeon-moura-7480549a/
+Cristiane,Ferreira Gripp,brancagripp@hotmail.com,Nestlé,Vendedora,24981325256,
+Jhonatan,de Rezendes Breda,jhonatanbreda@gmail.com,Unilever,Executivo de negócios,27999804586,
+Marcelo,Henrique dos Santos Barbosa,marcelosantos001@yahoo.com,Nestlé,Supervisor de vendas,92995372030,
+Edilainne,Silva da Rocha,edilaynne.carvalho@hotmail.com,Danone,Promotora de merchandising,89981035009,https://www.linkedin.com/in/edilainne-silva-884a31269/
+Alexgaldino,dos Santos Menezes,alexgaldinofsa@gmail.com,Nestlé,Profissional de merchandising,75981792742,https://www.linkedin.com/in/alexgaldino-menezes-59153917b/
+Rhuan,Carlos de Oliveira Melo,ruja22@hotmail.com,Nestlé,Executivo de vendas,11983261842,https://www.linkedin.com/in/rhuan-melo/
+Cleomar,Serafim Silva,cleomarcrispim@gmail.com,Unilever,Vendedor,6199808397061993891553,https://www.linkedin.com/in/cleomar-serafim-25ab77101/
+Diego,Constantino,diegocoabi@hotmail.com,Unilever,Promotor de vendas,19992659520,https://www.linkedin.com/in/diego-constantino-088940184/
+Thiago,Cardoso Dionisio Mendes,thiago@tdca.com.br,Nestlé,Executivo de vendas,86988472193,
+Nelio,Morais Ribeiro,nmorais@hotmail.com,Unilever,Promotor de vendas,61991394447061995814250061993133129061991443286,https://www.linkedin.com/in/nelio-morais-ribeiro-7a4bb7103/
+Lia,Albuquerque,lia_albuquerque@hotmail.com,Nestlé,Supervisora de vendas,61982879444,
+Wisney,Faria da Silva,wisneyfaria@gmail.com,Nestlé,Consultor de vendas,31999745577,
+Luana,Berlett de Lima,luana.berlett@gmail.com,Nestlé,Consultora de negócios,45999311091,
+Janaina,Paiva,paivajnn@gmail.com,Nestlé,Promotora de vendas,43991507889,https://www.linkedin.com/in/janaina-paiva-a53405241/
+Acacio,Fidelis de Sousa,,Unilever,Supervisor de vendas,6199118071006182233101,https://www.linkedin.com/in/ac%C3%A1cio-fid%C3%A9lis-6905261b3/
+Alysson,Brunno Ribas Pereira,alysson.p777@gmail.com,Nestlé,Promotor de vendas,67991625779,
+Samara,Adrielle da Silva,adrielle.samara22@gmail.com,Itambé,Sales promoter,37991090939,
+Walisson,Loubessa Nascimento,wloubessa@gmail.com,Itambé,Sales promoter,85986893200,
+Raimundo,Antonio Miguel Neto,raimundo_neto_17@hotmail.com,Unilever,Vendedor,81991616310,https://www.linkedin.com/in/raimundo-ant%C3%B4nio-miguel-neto-704371217/
+John,Trindade Cunha,johntrindade50@gmail.com,Nestlé,Promotor de vendas,91985336343,
+Walcleber,Landim Menezes,walclebermenezes14@gmail.com,Unilever,Propagandista,85987701000,https://www.linkedin.com/in/walcleber-menezes-4a416819b/
+Ingrid,Bayer de Andrade,bayer.andrade@hotmail.com,Itambé,Promotora de vendas,21993782366,https://www.linkedin.com/in/ingrid-aline-coradi-bayer-575060181/
+Ricardo,Junkes,junkesricardo@gmail.com,Danone,Promotor de vendas,47988312865,https://www.linkedin.com/in/ricardo-junkes-111891b1/
+Mauricio,Fontes,maurfontes@hotmail.com,Itambé,Gerente executivo de vendas,31987481126,https://www.linkedin.com/in/mauriciofontes77/
+Everton,Junio Rorato,brenororato@gmail.com,Nestlé,Gerente trade marketing,16991018876,https://www.linkedin.com/in/everton-rorato-904a12203/
+Juliano,Nunes da Fonseca,jnunes.fonseca@hotmail.com,Danone,Key Account Manager,19993547788,
+Deliano,Marcio Rosseto,deliano.rosseto@hotmail.com,Itambé,Regional Sales Manager,16988110712,https://www.linkedin.com/in/deliano-rosseto/
+Muller,Mazuline Fernandes,muller.mazuline2004@gmail.com,PepsiCo,Assistente de Vendas,13996194438,https://www.linkedin.com/in/muller-mazuline-65078a22b/
+Bruno,Stival Serafin Ferreira,brunostival@gmail.com,PepsiCo,Vendedor,34999294525,https://www.linkedin.com/in/bruno-stival-6673072b/
+Rafael,Almeida Silva,rafaelalmeida011@hotmail.com,PepsiCo,Vendedor,18996390743,https://www.linkedin.com/in/rafael-almeida-40b9a3113/
+Daniel,Barbosa Frömming,danielbfromming@yahoo.com.br,PepsiCo,Vendedor,54991073443,https://www.linkedin.com/in/daniel-barbosa-fr%C3%B6mming-7bbb02240/
+Gustavo,de Oliveira Moro,gu_moro@hotmail.com,PepsiCo,Vendedor executivo,27998452093,https://www.linkedin.com/in/gustavo-moro-3666a3119/
+Francisco,de Assis Lins de Figueiredo,assilins@gmail.com,PepsiCo,Vendedor,61999620348,https://www.linkedin.com/in/francisco-de-assis-figueiredo-1250517b/
+Rosana,Patricia Vian Frausto,rosanavian@yahoo.com.br,PepsiCo,Vendedora senior,11995189883,https://www.linkedin.com/in/rosana-vian-frausto-68a63417/
+Otavio,Lauriano Flausino,otavioflausino@gmail.com,PepsiCo,Trade Marketing,32988392627,https://www.linkedin.com/in/otavioflausino/
+Simone,Cristiane Rodrigues Tardivo,simone.rodrigues.tardivo@gmail.com,PepsiCo,Gerente de compras,11981608942,https://www.linkedin.com/in/simone-rodrigues-tardivo-6b8946a/
+Alexandre,Tozatti,,PepsiCo,Vendedor,46991089112,https://www.linkedin.com/in/alexandre-tozatti-5a7619192/
+Ronald,Buonocore de Mattos Gomes,buonocoredemattosgomes@gmail.com,PepsiCo,Promotor de vendas,24999899492,https://www.linkedin.com/in/ronald-buonocore/
+Felippe,Vidal Vilela Bento,felippe.vidal@gmail.com,PepsiCo,Gestor comercial,11991902744,https://www.linkedin.com/in/felippe-vidal-vilela-bento-039aa630/
+Marcelo,Soares Coutinho dos Santos,soarescoitinho18@gmail.com,PepsiCo,Promotor de vendas,75992427740,https://www.linkedin.com/in/marcelo-soares-coutinho-dos-santos-953777182/
+Marcos,Paulo Pires Viana,marcospires_viana@outlook.com,PepsiCo,Vendedor,64992614360,https://www.linkedin.com/in/marcos-paulo-pires-viana-170ab6235/
+Josiane,de Casia da Silva,,PepsiCo,Promotora de vendas,51997117323,https://www.linkedin.com/in/josiane-da-silva-908242217/
+Fábio,Botelho Almeida,fabiobotelhoalmeida@hotmail.com,PepsiCo,Vendedor externo,38999295514,https://www.linkedin.com/in/f%C3%A1bio-botelho-almeida-a57997204/
+Marcela,Araujo Siqueira,marcelasiqueira938@gmail.com,PepsiCo,Promotora de vendas,71982714707,https://www.linkedin.com/in/marcela-ara%C3%BAjo-b811a21b0/
+Renato,Nogueira,,Unilever,Vendedor,15996442593,https://www.linkedin.com/in/renato-nogueira-43735711a/
+Jefferson,Lima Rodrigues da Costa,jeffersonlima2005@hotmail.com,PepsiCo,Promotor de vendas,11981049339,https://www.linkedin.com/in/jeffersonrodriguess/
+Fabricio,Cassel de Moura,fabriciocasselmoura@gmail.com,PepsiCo,Consultor de vendas,51980325703,https://www.linkedin.com/in/fabricio-cassel-de-moura-496227298/
+Ana,Beatriz Rodrigues Bahiense,beatriz.bahiense@live.com,Mondelez,Coordenadora de vendas,19998812747,https://www.linkedin.com/in/ana-beatriz-rodrigues-bahiense/
+Luis,Henrique Morais de Souza,lusao_fia3d@hotmail.com,PepsiCo,Vendedor externo,19996443126,https://www.linkedin.com/in/luis-henrique-morais-de-souza-754134115/
+Marcio,Eduardo Quevedo Camargo,daducamargo1@gmail.com,PepsiCo,Vendedor,53999481821,https://www.linkedin.com/in/m%C3%A1rcio-eduardo-camargo-02586aa9/overlay/contact-info/
+Clayton,Souza Santana,claytonsanttana@hotmail.com,PepsiCo,Vendedor senior,11972551020,https://www.linkedin.com/in/claytonsantana/
+Vitor,Mota de Andrade,vitormotadeandrade@gmail.com,PepsiCo,Senior Manufacturing Supervisor,11948760746,https://www.linkedin.com/in/vitor-andrade-90145a90/
+Celcimar,Santos de Oliveira Sousa,,PepsiCo,Gerente de vendas,64996112045,https://www.linkedin.com/in/celcimar-santos-a8243a95/
+Renata,Casara Marques,renata.casara87@gmail.com,PepsiCo,Gerente de vendas,51981826492,https://www.linkedin.com/in/renatacasara/
+Marcio,Roberto Sandoval Mendonça,marciorsmendonca@gmail.com,PepsiCo,marciorsmendonca@gmail.com,35984266685,https://www.linkedin.com/in/marcio-roberto-sandoval-mendon%C3%A7a-9a12ba50/
+Jorge,Ricardo Moura de Bastos,j.r.bastos@hotmail.com,Nestlé,Coordenador de vendas,51998399239,https://www.linkedin.com/in/jorge-ricardo-moura-bastos/
+Rodrigo,Nobre da Silva,rodrigonobre527@gmail.com,Coca-Cola,Coordenador de vendas PL,51993891250,https://www.linkedin.com/in/rodrigo-nobre-329815181/details/experience/
+Emanuel,Eli Cesa Perini,emanuel.perini@outlook.com,Coca-Cola,Supervisor de merchandising,55996004544,https://www.linkedin.com/in/emanuel-eli-cesa-perini-66078b11a/
+Claudia,Valerio Ramos,claudiavalerioramos@gmail.com,Coca-Cola,Vendedora,19981950699,https://www.linkedin.com/in/claudia-valerio-ramos-45a870152/
+Bruno,Lisboa Nogueira,lisboa25202122@gmail.com,Coca-Cola,Vendedor,44910029812,https://www.linkedin.com/in/bruno-lisboa-b0a709122/
+Fabiane,Acosta Vieira,fabianeacostavieira@gmail.com,Coca-Cola,Coordenadora de Trade Marketing,51996771536,https://www.linkedin.com/in/fabiane-acosta-vieira-27314941/
+Igor,Auad Cano,i.auadcano@gmail.com,Kraft Heinz,Coordenador de projetos,11994838931,https://www.linkedin.com/in/igor-auad-c-30551348/
+Matheus,Zapateiro dos Santos,mzapateiro@gmail.com,Kraft Heinz,Executivo de vendas,11965808647,https://www.linkedin.com/in/matheus-zapateiro/
+Bruno,da Silva,bruno.silva.rp@hotmail.com,Kraft Heinz,Executivo de vendas,17991384496,https://www.linkedin.com/in/bruno-silva-rp/overlay/contact-info/
+Giovanny,Franco Rodrigues,giovanny.franco@hotmail.com,Kraft Heinz,Gerente de vendas,11998835467,https://www.linkedin.com/in/giovanny-franco-8b60b0b6/
+Giuseppe,Schvantes Medeiros Pereira,giuseppesmp@gmail.com,Kraft Heinz,Gerente de vendas,51996874407,https://www.linkedin.com/in/giuseppepereira/
+Alessandra,Aparecida de Freitas da Silva,freitasalessandra2004@gmail.com,Kraft-Heinz,Vendedora,21981683054,https://www.linkedin.com/in/alessandra-freitas-7324455a/
+Arthur,Moriyama Alves,arthur_alves28@hotmail.com,Kraft-Heinz,Gerente de vendas,11994307726,https://www.linkedin.com/in/arthur-alves-a8147694/
+Victor,Augusto Toniette,victor_toniette@hotmail.com,Kraft-Heinz,Diretor de vendas,11982211067,https://www.linkedin.com/in/victor-toniette-7a431731/
+Paula,Sampaio Sales,paulassales05@gmail.com,Kraft-Heinz,Gestora de atacados,91993844401,https://www.linkedin.com/in/paula-sales-/
+Paulo,Henrique Azambuja de Matos,pauloazamm@gmail.com,Kraft-Heinz,Gerente de vendas,65999365580,https://www.linkedin.com/in/paulohenriqueazambuja/
+Ederson,Suonski,ederson.ambev@hotmail.com,PepsiCo,Vendedor,41999247928,https://www.linkedin.com/in/ederson-suonski-118587233/
+Vinicius,Lizo Cartaxo,vini_since1988@hotmail.com,PepsiCo,Gerente de vendas,11974947794,https://www.linkedin.com/in/vinicius-cartaxo-09301622/
+Everton,Luiz de Oliveira Baisso,ebaisso@hotmail.com,PepsiCo,Gerente de conta chave,17991913684,https://www.linkedin.com/in/everton-baisso/
+Daniela,Zen Skrenski,danielazen@hotmail.com,PepsiCo,Gerente de vendas,48988285995,https://www.linkedin.com/in/daniela-zen-skrenski-24ba5159/
+Jady,Amorim de Jesus,jadyamorim@yahoo.com.br,PepsiCo,Supervisor de merchandising,31989724523,https://www.linkedin.com/in/jady-amorim-77621a135/
+Julia,Simão de Almeida Cruz,juliasacg@gmail.com,Nestlé,Repositora,44997555827,https://www.linkedin.com/in/julia-sim%C3%A3o-de-almeida-cruz-1a8a46199/
+Felipe,Conceicao,,Nestlé,Promotor de vendas,22974039353,https://www.linkedin.com/in/felipe-conceicao-a696412a3/
+Marcelo,Farias Nunes,marcelofarianunes@gmail.com,Nestlé,Gerente de vendas,31982121078,https://www.linkedin.com/in/marcelofarianunes/
+Gedeon,Sanches Moura,,Nestlé,Vendedor,22981121483,https://www.linkedin.com/in/gedeon-moura-7480549a/
+Mauricio,Ramalho de Moura Junior,mauricio_ramalho10@gmail.com,Nestlé,Repositor,85981416784,https://www.linkedin.com/in/mauricio-ramalho-779b84158/details/experience/
+Bruna,Santana Nóbrega,bruna_sbf@hotmail.com,Mondelez,Executivo de vendas,71992056501,https://www.linkedin.com/in/brunasantananobrega/
+Pablo,Vital Palmeira Wanderley,pablo.pwanderley@gmail.com,Coca-Cola,Gerente de operações,67981553670,https://www.linkedin.com/in/pablo-vital-palmeira-wanderley-894986214/
+Reginaldo,Jorge Tomasi,reginaldo.jt@gmail.com,Coca-Cola,Gerente de operações,15991666880,https://www.linkedin.com/in/reginaldotomasi/
+Ricardo,Alencar Batista,rikardinhobatista@gmail.com,Coca-Cola,Vendedor,67991281543,https://www.linkedin.com/in/alencar1901/
+Tatiana,Balles Favarim Cegobia,taticegobia@gmail.com,Unilever,Gerente de vendas,11999472087,https://www.linkedin.com/in/tatiana-cegobia-52a65534/
+Augusto,Gonçalves Dias Coelho,augustocoelho2013@gmail.com,Coca-Cola,Especialista em vendas,12991698986,https://www.linkedin.com/in/augustogdcoelho/overlay/contact-info/
+Leonardo,Tavares dos Santos,leonardotavares_23@hotmail.com,Nestlé,Executivo de vendas,71991481311,https://www.linkedin.com/in/leonardo-tavares-dos-santos-180535303/
+Rafael,Braga Ferreira,rafaelbragaferreira@gmail.com,Nestlé,Executivo de vendas,31993990990,https://www.linkedin.com/in/rafael-braga-ferreira-96953112a/
+Carlos,Felipe Rodrigues Soveral,carlos.soveral@gmail.com,Nestlé,Diretor comercial,48999575527,https://www.linkedin.com/in/carlos-soveral/
+Rosana,Cristina Cezar Lacerda,rose.cez@gmail.com,PepsiCo,Gerente de vendas,51991070667,https://www.linkedin.com/in/rosana-cezar/
+William,Souza Dutra,wsdutra@outlook.com,PepsiCo,Vendedor,34988310010,https://www.linkedin.com/in/william-souza-dutra-895505105/
+Thaina,Serafim da Silva,thainaserafim.s@gmail.com,Coca-Cola,Especialista em vendas,11986231347,https://www.linkedin.com/in/thaina-serafim-a3bb86236/
+Loy,Antonio Pazini,l_pazini@hotmail.com,Coca-Cola,Gerente de vendas,44999108866,https://www.linkedin.com/in/loy-pazini-19bb8410b/
+Monica,de Oliveira Verreschi dos Santos,monicaverreschisantos@gmail.com,Coca-Cola,Vendedora,24999498139,https://www.linkedin.com/in/monica-de-oliveira-verreschi-ba551b199/
+Fernanda,Haddad Galvao,ferhadga@hotmail.com,Coca-Cola,Supervisora de operações,14981091990,https://www.linkedin.com/in/fernanda-haddad-galvao-150626219/
+Kristian,José Bossle,kristianbrs@gmail.com,Coca-Cola,Supervisor de Merchandising,54991325490,https://www.linkedin.com/in/kristian-bossle-6985b999/
+Fernando,Saad,fersaad@hotmail.com,Coca-Cola,Executivo de vendas,67996414573,https://www.linkedin.com/in/fernando-saad-ms/
+Fernando,Lima de Oliveira,oliveirafernando205@gmail.com,Unilever,Coordenador de vendas,11937754743,https://www.linkedin.com/in/fernando-oliveira-0723259a/
+Carolina,Costa Janegitz,casaco_carol@hotmail.com,Coca-Cola,Supervisora de Merchandising,43999922520,https://www.linkedin.com/in/carolina-costa-janegitz/
+Odair,Aparecido Queiroz,odairqueiroz@hotmail.com,Coca-Cola,Coordenador de vendas,42988316667,https://www.linkedin.com/in/odairqueiroz-30233235/
+Marco,Antônio Nogueira Galeano,marcoantonio.galeano@gmail.com,Coca-Cola,Gerente de Merchandising JR,67993227924,https://www.linkedin.com/in/marco-ant%C3%B4nio-nogueira-galeano-11579bb3/
+Jefferson,Muniz da Silva,jefferson.munniz3@gmail.com,Nestlé,Coordenador de Negócios,77988246177,https://www.linkedin.com/in/jefferson-muniz-da-silva-54a241a8/
+Diego,Knebel,,Nestlé,Promotor de vendas,51997743463,https://www.linkedin.com/in/diego-knebel-024872123/
+Diego,Lopes de Jesus,dgolopes@hotmail.com,Nestlé,Executivo de vendas,11950561674,https://www.linkedin.com/in/diego-lopes-6341b9247/
+Maiane,Santiago Ribeiro,maianesr@hotmail.com,Kraft-Heinz,Executiva de vendas,71999346749,https://www.linkedin.com/in/maiane-santiago-ribeiro-9a27699b/
+Carlos,Alberto Brito Lucas,carlosbritolucas@hotmail.com,Kraft-Heinz,Executivo de vendas,21985970338,https://www.linkedin.com/in/carlos-lucas-3a2590aa/
+Fabio,da Silvsa Soria,fabio.soria@hotmail.com,PepsiCo,Vendedor Plus,53984072885,https://www.linkedin.com/in/f%C3%A1bio-soria-8b624922a/
+Rodrigo,Ventura da Silva,rventura1407@gmail.com,Mondelez,Executivo de vendas,71991258606,https://www.linkedin.com/in/rodrigo-ventura-07542b57/
+Celio,Messias Junior,celiomessiasjr@hotmail.com,PepsiCo,Vendedor OTL,14997232548,https://www.linkedin.com/in/celiovendas01/
+Vivian,Selister,vivianselister@gmail.com,PepsiCo,Promotora de vendas,51991863997,https://www.linkedin.com/in/vivian-selister-66b33a209/
+Dayane,Rocha,,PepsiCo,Vendedora,61995008507,https://www.linkedin.com/in/dayane-rocha-9b529910a/
+Raquel,Mendes Calil,rqcalil2@gmail.com,Mondelez,Gerente senior de gestão de projetos,41988076742,https://www.linkedin.com/in/raquel-calil/
+Lucimara,Maria Antonio Trigo,lucimaratrigo@hotmail.com,Mondelez,Gerente sênior de inteligência de vendas e projetos,11995190559,https://www.linkedin.com/in/lucimara-trigo/
+Tiago,Fillipe de Camargo,tiago.camargo05@outlook.com,Mondelez,Coordenador de armazém,19998595823,https://www.linkedin.com/in/tiago-camargo-b9298a142/
+Vitor,Luis Cervone,vitor_cervone@hotmail.com,Mondelez,Gerente de pricing,11996664365,https://www.linkedin.com/in/vitor-cervone-13323bb4/
+Rosivaldo,Medeiros da Cunha,rosivaldo_cunha@yahoo.com.br,Mondelez,Executivo de vendas,81996128067,https://www.linkedin.com/in/rosivaldo-cunha-0b945843/
+Rodrigo,Adriano Camargo,camargo.rac@gmail.com,Mondelez,Líder de vendas,19971200909,https://www.linkedin.com/in/rodrigocamargo1/
+Vinicius,Borges Martins,martins.vinicius@gmail.com,Mondelez,Gerente regional de vendas,54999183176,https://www.linkedin.com/in/vinicius-borges-martins/
+Daniel,Vieira Silva Diniz,danielvsdiniz@yahoo.com.br,Mondelez,Gerente de vendas,31991950546,https://www.linkedin.com/in/daniel-diniz-050a69100/
+Maria,Laura Costa Ferreira Marcal,laura_costa10@yahoo.com.br,Mondelez,Executiva de vendas,31972509905,https://www.linkedin.com/in/maria-laura-mar%C3%A7al-a04101a5/
+Manuella,Stanich Carneiro Guerrero,manuellastanichcguerrero@gmail.com,Unilever,Coordenadora Sênior de Planejamento Estratégico de Categoria,11942798409,https://www.linkedin.com/in/manuellastanichguerrero/
+Jardel,Gomes dos Santos,jardelgomes.1989@gmail.com,Nestlé,Vendedor,21970791547,https://www.linkedin.com/in/jardel-gomes-dos-santos-61a3101b1/
+Renato,Aparecido Alexandre Manete,renatomercadomanete@hotmail.com.br,Mondelez,Promotor de vendas,18996314798,linkedin.com/in/renato-manete-1b9665196/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC4D8N0BWHlwfI0SqU_Fi-6NOh-AwATAdAM
+Danielle,Benatti Araujo Martins,danielle.martinstdbm@gmail.com,Britvic,Executiva Nacional,11983514014,https://www.linkedin.com/in/daniellebenattimartins/
+Rafael,Souza Santos,souza.rafael41@yahoo.com.br,Nestlé,Vendedor,73999540682,https://www.linkedin.com/in/rafael-souza-8b8114145/overlay/contact-info/
+Clay,Regazzonni Pereira Teles,clayteles@hotmail.com,Nestlé,Gerente de trade marketing,62999758818,https://www.linkedin.com/in/clay-teles/
+Tiago,Alves Braga,tiagoalvestab@gmail.com,Nestlé,Vendedor,21988008913,https://www.linkedin.com/in/tiago-alves-braga-3b36b9113/
+Alanna,Emanuelle Fontenele Ferreira,fontenelealanna@gmail.com,Mondelez,Executivo de vendas,91982044304,https://www.linkedin.com/in/alannafontenele/
+Carlos,Eduardo Neves de Oliveira,cendoliveira@gmail.com,Mondelez,Gerente de vendas,48999763456,https://www.linkedin.com/in/carlos-eduardo-neves-de-oliveira/
+Daniel,Rodrigues Rizzo,danielrrizzo@gmail.com,Mondelez,Executivo de vendas,17991583771,https://www.linkedin.com/in/mayara-santos-mamede-00202368/
+Pedro,Antonio de Morais Junior,moraispedro77@hotmail.com,Mondelez,Representante de vendas,14996796636,https://www.linkedin.com/in/pedro-morais-704169b0/
+Lucas,da Rocha de Araujo Lima,lucasrorocha@hotmail.com,Mondelez,Promotor de vendas,21967438926,https://www.linkedin.com/in/lucas-da-rocha-de-araujo-lima-290994169/
+Carlos,Eduardo Soares Xavier,carloseduardoxavier@hotmail.com,Mondelez,Executivo de vendas,81996731209,https://www.linkedin.com/in/carlos-eduardo-soares-xavier/
+Mauricio,Leitao da Silva,mauricioleitao690@gmail.com,Mondelez,Promotor de vendas,95991270746,https://www.linkedin.com/in/maur%C3%ADcio-leitao-19a044232/
+Willian,Boita,willmem70@hotmail.com,Coca-Cola,Coordenador de vendas,41995509474,https://www.linkedin.com/in/willian-boita-a602b070/
+Monica,Ellen Peres Gasparini,monicaellenperez@hotmail.com,Coca-Cola,Coordenadora de vendas,11971397067,https://www.linkedin.com/in/monica-ellen-43656132/
+Amilcar,Ferreira Ornellas,amilcar.ornelas@bol.com.br,Coca-Cola,Gerente de merchandising,18997279500,https://www.linkedin.com/in/amilcar-ferreira-comercial/
+Maria,Aureni Juvino Gomes,marcos.aureni@hotmail.com,Coca-Cola,Desenvolvedor de novas categorias,11983848627,https://www.linkedin.com/in/maria-aureni-juvino-gomes-890768a7/
+David,Gomes Cardoso Junior,davidjrbr@gmail.com,Coca-Cola,Vendedor,11970835993,https://www.linkedin.com/in/david-gomes-cardoso-376857255/
+Petterson,Xavier de Almeida,petterson.x@hotmail.com,Coca-Cola,Vendedor,17996503355,https://www.linkedin.com/in/petterson-x-almeida-313ba027/
+Mauricio,de Filippis Pancich,mauriciopancich@hotmail.com,Nestlé,Gerente executivo de vendas,85986170165,https://www.linkedin.com/in/mauriciopancich/
+Josimar,Ferreira da Silva,josimarfa2122@hotmail.com,Marilan,Promotor de vendas,74981353948,https://www.linkedin.com/in/josimar-ferreira-da-silva-b35b85201/
+Sillas,Rafael Senger,sillasrafael@gmail.com,Coca-Cola,Coordenador de vendas,41996336860,https://www.linkedin.com/in/sillasrafaelsenger/
+Jannine,dos Santos,,Coca-Cola,Vendedora,12988790295,https://www.linkedin.com/in/jannine-dos-santos-b754a1214/
+Wenderson,Morais Camargos Junio,wenderson479@outlook.com,Mondelez,Promotor de merchandising,37991053064,https://www.linkedin.com/in/wenderson-junio-350a20135/
+Rayane,Barbosa Silva,rayanebscarvalho@gmail.com,Mondelez,rayanebscarvalho@gmail.com,99991807890,https://www.linkedin.com/in/rayane-barbosa-silva-1a21402a7/
+Janete,Dall Accua,janetedall@hotmail.com,Mondelez,Gerente de vendas,51981490282,https://www.linkedin.com/in/janete-dall-accua/
+Luciana,Costa Resende Tobias,luciana.tobias@gmail.com,Mondelez,Coordenadora de vendas,31997584735,https://www.linkedin.com/in/luciana-tobias-509508b5/
+Adneia,de Souza Machado,adneia_machado@hotmail.com,Mondelez,Executiva de vendas,11992580131,https://www.linkedin.com/in/adneia-machado/
+Fabio,Jesus da Silva Ludwig,fabioludwig1979@gmail.com,Kraft-Heinz,Executivo de vendas,49999192028,https://www.linkedin.com/in/fabio-jesus-47a10ab6/
+Ana,Carolina Martins de Souza,anacdhe@gmail.com,Kraft-Heinz,Promotora de trade marketing,31992792582,https://www.linkedin.com/in/ana-carolina-martins-de-souza-9015121ba/
+Lucas,Adriano Tibola,florestal.tibola@gmail.com,Kraft-Heinz,Executivo de vendas,66996096098,https://www.linkedin.com/in/lucas-adriano-tibola-95a9988a/
+Luciano,Oliveira Bodnariuc,luoliveira.82@gmail.com,Unilever,Coordenador de vendas,11963993247,https://www.linkedin.com/in/lucianooliveira/
+Rodrigo,Leite Gonçalves,rodrenick@terra.com.br,Unilever,Engenheiro de processos,19991279103,https://www.linkedin.com/in/rodrigo-leite-gon%C3%A7alves-a956b6a2/
+Denis,Willy Rodrigues Vitoriano,vi.toriano@hotmail.com,Unilever,Executivo de negócios,11970527356,https://www.linkedin.com/in/denis-vitoriano-36b020245/
+Matheus,Mascarenhas Neves Batista,matheus.mascarenhas50@gmail.com,Unilever,Vendedor,11915365927,https://www.linkedin.com/in/matheus-mascarenhas-09886b1bb/
+Marcos,Paulo Felipe Neres,marcos_pauloneres@hotmail.com,Nestlé,Promotor de vendas,13974217613,https://www.linkedin.com/in/marcos-paulo-felipe-neres-33439474/
+Dayana,da Silva Alves,dayana.alves2007@gmail.com,Mars,Representante de vendas,81998758227,https://www.linkedin.com/in/dayana-alves-893942185/
+Natalia,Bianca Marques dos Santos,natysmont@gmail.com,Mars,Vendas técnicas,31987703327,https://www.linkedin.com/in/natalia-bianca-254729280/
+Rafael,Rocha Ferreira,rafael.rochinha11@gmail.com,Mars,Gerente de vendas,11960733546,https://www.linkedin.com/in/rafael-rocha-ferreira/
+Vítor,Menelau de Novais,menelauvitor@gmail.com,Mars,Coordenador de vendas,84988400529,https://www.linkedin.com/in/v%C3%ADtor-menelau-de-novais-082b5211a/
+José,Liliquer Costa de Oliveira,j_liliker@hotmail.com,Mars,Executivo de contas senior,69999330049,https://www.linkedin.com/in/liliquer-oliveira/
+Felipe,Augusto Pereira Requiao,requiao.felipe@gmail.com,Mars,Gerente comercial,19997068901,https://www.linkedin.com/in/felipe-requi%C3%A3o-horaga/
+Robinson,de Jesus Machado,robinson.machado@bol.com.br,Mars,Gerente de vendas,11964400121,https://www.linkedin.com/in/robinson-machado-b4506ba/
+Fernando,Ferroni,ferroni.fernando@gmail.com,Mars,Finance Head,11913188280,https://www.linkedin.com/in/fernando-ferroni/
+Elker,Pavaneli,elkerpavaneli@gmail.com,Mars,Supply Chain Finance manager,19992310948,https://www.linkedin.com/in/elker-pavaneli/
+Gabriel,Bochembuzo Bellini,gb_bellini@hotmail.com,Mars,Coordenador de vendas,11972414428,https://www.linkedin.com/in/gabriel-bellini-31288383/
+Raquel,de Silveira,rqsilve@gmail.com,Unilever,Executiva de negócios,21964484845,https://www.linkedin.com/in/raquel-silveira-rj/
+Fabio,Junior Jacob de Azevedo,fabiojrjacob@hotmail.com,Unilever,Executivo de negócios,62993733796,https://www.linkedin.com/in/f%C3%A1bio-j%C3%BAnior-j-1647b8145/
+Ana,Claudia Ramos Costa coutinho,donatela.costa@hotmail.com,Unilever,Coordenadora de Trade Marketing,21992786347,https://www.linkedin.com/in/ana-claudia-ramos-016b6119/
+Ninfer,Vareiro Faria,ninfer.f@gmail.com,Unilever,Coordenadora de Trade Marketing,19992974739,https://www.linkedin.com/in/ninfer-faria/
+Mauricio,Rodrigues,mauriciorodrigues789@outlook.com,Unilever,Vendedor,19996563923,https://www.linkedin.com/in/mauricio-rodrigues-6a9030173/
+Egilson,Calixto da Silva,egilsoncalixto@hotmail.com,Unilever,Vendedor,84988822942,https://www.linkedin.com/in/egilson-calixto-calixto-1bb8a873/
+Thulio,Camara Escobar,thuliocamara@hotmail.com,Coca-Cola,Representante de vendas,64984352810,https://www.linkedin.com/in/thulio-escobar-025a51276/
+Alyson,Lourenço Massucatto,alyson.massuca@gmail.com,Coca-Cola,Vendedor,45999978306,https://www.linkedin.com/in/alyson-louren%C3%A7o-massucatto-40969b290/
+Felipe,Crispim de Abreu,fcabreu95@gmail.com,Coca-Cola,Auxiliar operacional,41995184503,https://www.linkedin.com/in/crispimsilvaoficial/
+Jefferson,Felipe Araujo Silva,jeffersonfelipe18@gmail.com,Coca-Cola,Promotor de vendas,14991214201,https://www.linkedin.com/in/jefferson-felipe-a-silva-b4a98623a/
+Eder,Santos,eder25santos@gmail.com,Coca-Cola,Profissional de merchandising,11941414614,https://www.linkedin.com/in/%C3%A9der-santos-74186a18b/
+Heriton,Tiago Dos Santos,heriton_09@hotmail.com,Coca-Cola,Vendedor,41999647171,https://www.linkedin.com/in/heriton-tiago-dos-santos/
+Dyanifer,Patricia Gregorio Gatti,dyanifergatti@gmail.com,Coca-Cola,Vendedora,19988715755,https://www.linkedin.com/in/dyanifer-gatti-07191a158/
+Isabel,Cristina Daitx,isabeldaitx30@gmail.com,Coca-Cola,Promotora de vendas,51996263341,https://www.linkedin.com/in/isabel-cristina-daitx-49b032303/
+Italo,Xavier da Silva de Jesus,,Coca-Cola,Coordenador de vendas,18997573301,https://www.linkedin.com/in/italo-xavier-silva-de-jesus-432776129/
+Jose,Augusto dos Santos,jaugustocba1973@gmail.com,Coca-Cola,Gerente de distribuição,65999562666,https://www.linkedin.com/in/jaugustosupply/
+Marlon,Rafael Goetze,marlon131goetze@gmail.com,Coca-Cola,Promotor,51997348299,https://www.linkedin.com/in/marlon-rafael-goetze-bb6467179/
+Elison,Frances Rodrigues Carneiro,elisoncarneiroo@gmail.com,Coca-Cola,Promotor de vendas,17996232223,https://www.linkedin.com/in/elison-carneiro-962466222/
+Cleverton,Juarez Vicente,clevinnhotj@hotmail.com,Coca-Cola,Vendedor,48999016445,https://www.linkedin.com/in/cleverton-vicente-547859182/
+Luccas,Bina de Souza,luccasbina@hotmail.com,Coca-Cola,Vendedor,41997003454,https://www.linkedin.com/in/luccas-bina-688093226/
+Lucas,Jose Albieri,lucasaalbieri@gmail.com,Coca-Cola,Vendedor,41984359937,https://www.linkedin.com/in/lucas-j-albieri-/
+Paulo,Ricardo Santos Gomes,paulloricardo.gomes@gmail.com,Coca-Cola,Vendedor,19981143574,https://www.linkedin.com/in/paulo-ricardo-santos-gomes-1a2264322/
+Marden,Silveira Ribeiro,,Coca-Cola,Vendedor,31996651545,https://www.linkedin.com/in/marden-silveira-063247115/
+Jeferson,Ricardo Camargo Menezes,jeffpbasico@hotmail.com,Coca-Cola,Analista de pesquisa de mercado,51993935870,https://www.linkedin.com/in/jeferson-ricardo-camargo-menezes-269695173/
+Kelvin,de Sa Menezes,kelvin_15ms@hotmail.com,Coca-Cola,Vendedor externo,61985017270,https://www.linkedin.com/in/kelvin-de-s%C3%A1-menezes-276b3ba0/
+Jessica,Pinheiro Santilli,jessicasantilli@gmail.com,Coca-Cola,Promotora de vendas,18997034850,https://www.linkedin.com/in/jessica-pinheiro-644b44262/
+Jackson,Chaves Ribeiro,jackedaia@hotmail.com,Coca-Cola,Vendedor,11965467276,https://www.linkedin.com/in/jackson-ribeiro-526289134/
+Emerson,Manique Martins,emersonmartinsmanique@gmail.com,Coca-Cola,Promotor de vendas,51989383706,https://www.linkedin.com/in/emerson-manique-b55a9a22b/
+Edimilson,Aranha Santos,edyaranha2244@gmail.com,PepsiCo,Promotor de vendas,79996709208,https://www.linkedin.com/in/edimilson-aranha-santos-a53945223/
+Marco,Antonio Silva Carneiro,,PepsiCo,Promotor de vendas,51993229012,https://www.linkedin.com/in/marcocarneiro82/
+Haline,De moura Sales Silva,halinesales2019@gmail.com,PepsiCo,Promotora de vendas,62984757839,https://www.linkedin.com/in/haline-de-moura-sales-silva-1609b0261/
+Karla,Santana,,PepsiCo,vendedora,87999988879,linkedin.com/in/karla-santana-6a478a1a1
+Renato,Nogueira,renato32canario@gmail.com,PepsiCo,vendedor as,15997761198,linkedin.com/in/renato-nogueira-43735711a
+Gabriela,Souza,nardegabi25@gmail.com,PepsiCo,promotor de vendas,47992251806,linkedin.com/in/gabriela-souza-40a54b22b
+Ruan,Carvalho,ruan2266@hotmail.com,PepsiCo,promotor de vendas,22992773792,linkedin.com/in/ruansantoscarvalho46
+Laurindo,Castro,laurindorodrigues74@hotmail.com,PepsiCo,promotor de vendas,85988179773,linkedin.com/in/laurindo-rodrigues-castro-5b2a4a8a
+Daniel,Sartori,danielsartomenegone@yahoo.com.br,PepsiCo,gerente de vendas,15997291738,linkedin.com/in/daniel-sartori
+Jovelino,Bernardo Broedel,jbroedel2012@gmail.com,CIMED,Gerente comercial,21998174034,https://www.linkedin.com/in/jovelino-bernardo/
+Tiago,Eleuterio Fernandes,tiago_eleuterio@yahoo.com.br,CIMED,Gerente de distrito,85981412118,https://www.linkedin.com/in/tiago-eleuterio-0a65b672/
+Marcos,Souza,,Unilever,gestor de execução,169970720577599111568775983154914,linkedin.com/in/marcos-souza-9a4b46262
+Andréa,Cantovitz,andreacantovitz@hotmail.com,Unilever,supervisora de vendas,1299665340912997624956,linkedin.com/in/andrea-cantovitz
+Vitor,Emmanuel da Silva,vitoredasilva@hotmail.com,Unilever,coordenador de vendas,48988318628489915102934832481317,linkedin.com/in/vitor-emmanuel-da-silva-42890930
+Helen,da Silveira Sales,helen.silveira2014@gmail.com,Unilever,promotor de vendas,41360638964198408615741984786157,linkedin.com/in/helen-da-silveira-sales-82965a241
+fabio,silva,fsfabiosn@gmail.com,Unilever,Profissional de merchandising,1298152035011972886564,linkedin.com/in/fabio-silva-52a522192
+Taylane,Bacela,taybacelar@icloud.com,Unilever,Consultor de vendas,759812536867599116129975998409587,linkedin.com/in/taylane-bacela-a7406273
+Denis,Vitoriano,vi.toriano@hotmail.com,Unilever,executivo de negócios,11970527356,linkedin.com/in/denis-vitoriano-36b020245
+Fabrício,Alves,fabricio.alvesdesouza@yahoo.com,Coca-Cola,vendedor junior,31986787001319926931963137742146,linkedin.com/in/fabrício-alves-07293590
+Daniel,Benevides,daniebenevidesdeoliveira@gmail.com,Coca-Cola,vendedor pleno,67343810456798177759167993217180,linkedin.com/in/daniel-benevides-b2a366198
+Jean,Carvalho,jeanpierre.juridico2021@gmail.com,Coca-Cola,vendedor pleno,11939535972,linkedin.com/in/jean-carvalho-6861a5156
+Marcos,Alves De Abreu,fernandaruach@hotmail.com,Coca-Cola,vendedor externo,31986605615,linkedin.com/in/marcos-alves-de-abreu-6674a0279
+Jair,Correia,jairc.lima@hotmail.com,Coca-Cola,vendedor,1998733463919993289341,linkedin.com/in/jair-correia-83875093
+Henrique,Bonini,henriquebonini2@hotmail.com,Coca-Cola,vendedor,31973249078,linkedin.com/in/henrique-bonini-a590a2226
+William,Osmarin,wosmarin@gmail.com,Coca-Cola,promotor de vendas,549980350225499666956254991736945,linkedin.com/in/william-osmarin
+João,Vitor Fernandes de Alvarenga,joaovitorfernandesalvarenga@gmail.com,Coca-Cola,vendedor,449913879794499727109818981252328,linkedin.com/in/joãovitor-alvarenga
+Edilson,Cardozo,edilsoncaardozo@hotmail.com,Coca-Cola,promotor de vendas,19981411600,linkedin.com/in/edilson-cardozo-154a151a4
+Jovelino,Bernardo,jbroedel2012@gmail.com,CIMED,gerente comercial,21998174034219103142882136557832,linkedin.com/in/jovelino-bernardo
+Tiago,Brandão,tiagodorileo1@hotmail.com,CIMED,gestor de vendas,659991476266533265652,linkedin.com/in/tiago-brandão-182a7a207
+Edinaldo,Fernandes,,CIMED,gerente de vendas distrital,9898892713098988931532,linkedin.com/in/edinaldo-fernandes-99b5b921
+William,Almeida da Conceição,wacalmeida@bol.com.br,CIMED,gestor de vendas,11969463822119654140421125413866,linkedin.com/in/william-almeida-da-conceição-05682650
+Michel,Sampaio,michelsampaio@uol.com.br,CIMED,supervisor de vendas,219949698762199236534121994282498,linkedin.com/in/michel-sampaio-45956b171
+Mírian,Lima Lopes,mirianllopes@yahoo.com.br,CIMED,gerente de vendas,989920644379899190046598982559355,linkedin.com/in/mírian-lima-lopes-237562156
+Iuri,Mariotti Farias,iurimariotti@hotmail.com,CIMED,gerente de vendas,679930953656798187336467992704396,linkedin.com/in/iuri-mariotti-farias-b9021a26a
+Luiz,Antonio Silva Souza,,CIMED,gestor de vendas,759920574507599137773575999692062,linkedin.com/in/luiz-antonio-silva-souza-26a735104
+Eloisa,Cardoso Lucindo,eloisacardosolucindo64917@gmail.com,Marilan,analista customer service,1499752260214981843702,linkedin.com/in/eloisa-cardoso-lucindo-5192b3164
+Marco,Pollo Azevedo,marcoazevedo40@hotmail.com,Marilan,coordenador de vendas nordeste,21327134572197686935121973247150,linkedin.com/in/marco-pollo-azevedo-00631525
+Raphaela,Ferreira,raphaela.af97@gmail.com,Marilan,empacotadora,14998678046149968351321433166939,linkedin.com/in/raphaela-ferreira-9a6551174
+larissa,messias de jesus santos,l.a.r.y@hotmail.com,Marilan,vendedora,719868050707198516765171987594064,linkedin.com/in/larissa-messias
+Luelzi,De Melo Cipriano,dgascmo@gmail.com,Marilan,promotor de vendas,8199880803281997484346,linkedin.com/in/luelzi-de-melo-cipriano-57234a165
+Jackson,Brito,j.bito@hotmail.com,Marilan,promotor de vendas,27997345310,linkedin.com/in/jackson-jackson-brito-069201217
+Reginaldo,Cremonezi,rcremonezi@msn.com,Danone,gerente de operações de venda,1197395348611983895831,linkedin.com/in/reginaldocremonezi
+Rodolfo,Morais,rodolfomorais11@gmail.com,Danone,supervisor de transporte,1195159302211983036142,linkedin.com/in/rodolfo-morais-supplychain
+Juliene,Gennari,julieneg@gmail.com,Danone,gerente de area danone,31989507704219938327002124462485,linkedin.com/in/juliene-gennari
+Marco,Rocha,marcoantnio65@hotmail.com,Danone,gerente de area danone,35984554544,linkedin.com/in/marcoantôniorocha
+Rêmolo,Figueiredo Lacerda,remolo1977@hotmail.com,Kraft-Heinz,Executivo de contas,7199392740771988047832,linkedin.com/in/rêmolo-figueiredo-lacerda-171958a0
+Javane,Weffort,javanebg@hotmail.com,Kraft-Heinz,gerente distribuição food service,,linkedin.com/in/javaneweffort
+Maiane,Santiago Ribeiro,maianesr@hotmail.com,Unilever,executivo de vendas,7199654654471992986544,linkedin.com/in/maiane-santiago-ribeiro-9a27699b
+Maiane,Santiago Ribeiro,maianesr@hotmail.com,Kraft-Heinz,executivo de vendas lll,7199654654471992986544,linkedin.com/in/maiane-santiago-ribeiro-9a27699b
+Izabela,Martins dos Santos,izabela.santos@hotmail.com,Kraft-Heinz,gerente nacional de vendas,1144512487,linkedin.com/in/izabelams
+Carlos,Alberto Brito Lucas,carlosbritolucas@hotmail.com,Kraft-Heinz,executivo de vendas regional,2198597033821992528423,linkedin.com/in/carlos-lucas-3a2590aa
+Otávio,Flausino,otavio_25@yahoo.com.br,PepsiCo,analista senior rh para vendas,12981440504,linkedin.com/in/otavioflausino
+Rosana,Vian Frausto,rosanavian@yahoo.com.br,PepsiCo,gerente nacional de vendas,11976378336,linkedin.com/in/rosana-vian-frausto-68a63417
+Breno,Delgado Magalhães,breno_delgado@hotmail.com,PepsiCo,gerente senior operações RH,1599149695165999820469,linkedin.com/in/brenodm
+Diego,Vannuzini Pessoa de Albuquerque,diegovpa@hotmail.com,Danone,gerente de revenue management,11999963851,linkedin.com/in/diego-vannuzini-pessoa-de-albuquerque-515423a3
+Adilson,Falavigna,adilson0502@hotmail.com,PepsiCo,gerente regional senior de vendas,4199529766741997726874,linkedin.com/in/adilson-falavigna-7669283a
+Oseias,de Pontes,,correios,gerente operacional,1530193634153326294415997364309,linkedin.com/in/oseias-de-pontes-525376302
+Alexis,Marconi,alexisgalocura@gmail.com,correios,carteiro temporario,31994910921319870612163136390387,linkedin.com/in/alexis-marconi-26b47a26a
+Douglas,Sérgio Brito,douglassergio1@gmail.com,correios,motorista,339999435113399821655633991376857,linkedin.com/in/douglas-sérgio-brito-68a297138
+Ana,Jaqueline Meira,jack73joy@gmail.com,correios,executiva de contas,4199711486841988890131,linkedin.com/in/ana-jaqueline-meira
+Michelle,Teixeira Porto,mporto820@gmail.com,correios,aprendiz,21968123327,linkedin.com/in/michelle-teixeira-porto-1535b9227
+Kauan,campos,kauancamposmesquita@gmail.com,correios,assistente administrativo,8899275401788982274883,linkedin.com/in/kauan-campos-32b587301
+Sara,Souza,goncalvessara399@gmail.com,Unilever,executiva de negocios,43996861018,linkedin.com/in/sara-souza-0546b921a
+Tatiana,Villaço Castilho,taty_villaco@hotmail.com,Unilever,executiva de negocios,11984938178119579544051126229270,linkedin.com/in/tatiana-villaço-castilho-4b212224a
+Everton,de Oliveira Ferreira,branco1376@hotmail.com,Unilever,executiva de negocios,329885363203298448564332985171945,linkedin.com/in/everton-de-oliveira-ferreira-778a0765
+Rodrigo,Eduardo Ferreira,rodrigoeduardo2@gmail.com,Unilever,consultoria de vendas,1699626440711947619310112725023116996139162,linkedin.com/in/rodrigo-eduardo-ferreira-075974101
+Davi,Borgnez de Souza,borgnez@gmail.com,Marilan,regional distribuição,19971182462199890344441933255049,linkedin.com/in/davi-borgnez-de-souza-610926130
+Luciane,Talanski,lutalanski@hotmail.com,Marilan,coordenadora de vendas,,linkedin.com/in/luciane-talanski-11401841
+Herbert,da Silva Lima,carla.chaine@gmail.com,Marilan,gerente de area,71988171433719880118107132330519,linkedin.com/in/herbertdasilvalima
+Leandro,Blecha,leandro.blecha@yahoo.com.br,Marilan,executivo de vendas,11431684461194339420711999199077,linkedin.com/in/leandro-blecha
+Júlio,Cesar Rech,julio_rech@hotmail.com,Marilan,coordenador de vendas,51994028916519921579085139222040,linkedin.com/in/júlio-cesar-rech-a09bb922
+mateus,felipe de lazari leite,mateusfelipelazari@gmail.com,Coca-Cola,vendedor externo,67998831317149966844046734222865,linkedin.com/in/mateus-lazari-564aa9170
+leonardo,de assis silva,leonardo.assis2424@gmail.com,Coca-Cola,promotor de vendas,1195902475318991833335,linkedin.com/in/leonardo-de-assis-silva-2b9783260
+matheus,hott lacerda,matheushott@gmail.com,Coca-Cola,executivo de vendas,31984430199313565794431987351289,linkedin.com/in/waldyr-filipino-neto-
+Waldyr,Filipino Neto,waldyrfilipinoneto@gmail.com,Coca-Cola,vendedor externo,18997417375,linkedin.com/in/waldyr-filipino-neto-
+João,Vitor Rodrigues,amaterazu52@gmail.com,Coca-Cola,vendedor PL,5199717043451997257364,linkedin.com/in/joão-vitor-rodrigues-a54b08188
+José,Luiz Haubert,joseluizhaubert@gmail.com,Coca-Cola,vendedor,519924191045198405112351993085760,linkedin.com/in/josé-luiz-haubert-512416271
+Rick,Rocha Silva,ricckrocha@hotmail.com,PepsiCo,vendedor temporario,38997367697389911928483832242163,linkedin.com/in/rick-rocha-silva-69585824b
+emanuel,brasil de oliveira,emanuelbrasil.deoliveira@hotmail.com,Coca-Cola,vendedor,419986215114198525211541997805098,linkedin.com/in/emanuel-brasil-2399b82a7
+Jeferson,Da Rosa Roldão,jefe.roldao@gmail.com,CIMED,gestor de vendas,489964949684999919921548988472159,linkedin.com/in/jeferson-da-rosa-roldão-807a82b3
+Joyce,Fonseca,joycefonsecarocha96@gmail.com,CIMED,representante de medicamentos,319897031153198349135338999982693,linkedin.com/in/joyce-fonseca-22a907104
+Bruno,A. Incrocci Pelosi,,CIMED,gestor de vendas,65981134688,linkedin.com/in/bruno-a-incrocci-pelosi-20413921
+Rosana,Cristina Cezar,rose.cez@gmail.com,CIMED,Gerente de vendas,51991070667,linkedin.com/in/rosana-cezar
+Rodolfo,Balduino,rcbalduino@gmail.com,CIMED,representante comercial de vendas,1998907306719992397509,linkedin.com/in/rodolfobalduino
+Vinicius,Furtado Dias,vinyfurtado@gmail.com,CIMED,representante de vendas farmaceutica,279975668732799516357931998150641,linkedin.com/in/vinicius-furtado-dias-7b548756
+Henrique,Marques,hique.ms@gmail.com,CIMED,gestor de vendas,,linkedin.com/in/henrique-marques-silva
+luiz,claudio gaioti ximenes,lcgximenes19@gmail.com,CIMED,representante de vendas,21964218796219972419222135981825,linkedin.com/in/luiz-ximenes
+Nildo,Silva Junior,nildopedrojunior@hotmail.com,Danone,gerente de area,,linkedin.com/in/nildo-silva-junior-3b401140
+Bruna,deluany fonseca rocha,deluanyy@gmail.com,Danone,Profissional de merchandising,3898429204919989351699,linkedin.com/in/brunadeluany
+Lidiane,Ferreira,lidimarcosofia@gmail.com,Danone,gerente de area,1298219905512997724309,linkedin.com/in/lidiane-ferreira-01b4aa53
+Filipe,Cavalcanti Barros,lipe.barros77@gmail.com,Danone,promotor de vendas,8199764612821968318841,linkedin.com/in/filipe-cavalcanti-barros-9178721a2
+Valter,Condutta,valtercondutta@gmail.com,Unilever,vendedor ice,,linkedin.com/in/valter-condutta-a87b5650
+Idelmice,dos santos barbosa,idelmicebarbosa@hotmail.com,Danone,supervisor de merchandising,159881905391599103779115991799605,linkedin.com/in/idelmice-barbosa-874264222
+Aline,Destefane de Souza,,Danone,estagiaria de marketing,11972955277,linkedin.com/in/aline-destefane-de-souza-2b982b231
+Carlos,Eduardo Delduca,gvmeduardo@hotmail.com,Danone,gerente nacional de vendas,1999147657119366540741936654074,linkedin.com/in/carlos-eduardo-delduca-b98b1819
+Iuly,keice rocha dos santos,iulyks@hotmail.com,Coca-Cola,analista planejamento financeiro,11916818298119819929811128944480,linkedin.com/in/iuly-rocha
+Iuly,keice rocha dos santos,iulyks@hotmail.com,Kraft-Heinz,analista de planejamento financeiro e orçamento,11916818298119819929811128944480,linkedin.com/in/iuly-rocha
+Douglas,Carvalho,carvalho02021996@gmail.com,correios,agente de correio,1191527522411945732082,linkedin.com/in/douglas-carvalho-5b9338265
+Paulo,Roberto Paulino Júnior,,correios,funcionario dos correios,3599984529735988191872,linkedin.com/in/paulopaulinojr
+Evelin,Gusmao,evelings14@hotmail.com,correios,assistente de operações,419913431584199147891541998874963,linkedin.com/in/evelin-gusmao-4ab7569a
+Eduardo,Caixeta Garroni,duducaixeta19@gmail.com,correios,atendente comercial,35988989736,linkedin.com/in/eduardo-caixeta-garroni-463084239
+Alessandra,Cristina Veronezzi,alessandra.veronezzi@gmail.com,correios,gerente de agencia,16999259261169812055901633943654,linkedin.com/in/alessandra-cristina-veronezzi-198784231
+Anna,Luiza Alves Ribeiro,anna.luizaribeiro@hotmail.com,correios,caixa,6232991744,linkedin.com/in/anna-luiza-alves-ribeiro-355153270
+Mirella,Martins,mirella.martins@hotmail.com,correios,caixa,11964457940,linkedin.com/in/mirella-martins-989657163
+Rondon,de Faria,rondonfaria@gmail.com,Unilever,coordenador de vendas,62992719689,linkedin.com/in/rondon-de-faria
+Merielli,Bilck,merybilck@hotmail.com,Unilever,executivo de negocios,4899131187848991809864,linkedin.com/in/merielli-bilck-695321129
+Celso,Borges Santos,celsosantosb@gmail.com,Unilever,executivo de negocios,629828018743499990151634997770299,linkedin.com/in/celso-borges-santos-71579bb8
+Paulo,Carvalho,paulocarvalho87@hotmail.com,Unilever,coordenador de vendas,79991369185,linkedin.com/in/paulo-carvalhoo
+Maiara,Pereira,,Unilever,Profissional de merchandising,1198576720711967161332,linkedin.com/in/maiara-pereira-474832218
+Jerffeson,Nogueira Pinheiro,jerffesongirao@gmail.com,Unilever,executivo de negocios,8599188847085987308664,linkedin.com/in/jerffeson-pinheiro-70a897213
+Danilo,de Oliveira Cerqueira,dancerqueira96@gmail.com,Unilever,Consultor de vendas,7198316928571996023944,linkedin.com/in/danilodeoliveiracerqueira
+Josy,Mendes de Deus,josymnd@hotmail.com,Marilan,executivo de vendas,21996105068219792195751199371475121995914751,linkedin.com/in/josy-mendes-ab233a39
+Leonardo,Lima Lopes,leolimal@hotmail.com,Marilan,executivo de vendas,719811529297198117238471981376138,linkedin.com/in/leonardo-lima-lopes-35500615b
+Alliny,Sá dos Santos,allinysa@hotmail.com,Marilan,promotor de vendas,1199409905411978005660,linkedin.com/in/alliny-sá-44362533
+Rodrigo,Massmann da Silveira,rodrigomassmanndasilveira@gmail.com,Marilan,vendedor,549971088455499943330054999935986,linkedin.com/in/rodrigo-massmann-da-silveira-355471206
+Lucas,Ribeiro de Oliveira,,Coca-Cola,assistente de prestação de contas,54981177632549842732975432326737,linkedin.com/in/lucas-ribeiro-de-oliveira-6090a91a1
+Jefferson,Soares,,Coca-Cola,vendedor,679988686756799650010867993488731,linkedin.com/in/jefferson-soares-a030352b2
+Saulo,Luiz de Almeida,cl4rk_zn@hotmail.com,Coca-Cola,vendedor externo,179918581151799158020117992145744,linkedin.com/in/saulo-luiz-almeida-74a524169
+Tiago,Comar Martins,ticomanutri@gmail.com,Coca-Cola,vendedor,17981116553179971117581734232284,linkedin.com/in/tiagocomarmartins
+Marden,Henrique da Silveira,mardensilveira10@gmail.com,Coca-Cola,vendedor,379998820883799806344437999436754,linkedin.com/in/marden-silveira-063247115
+Vinícius,Rodrigues,rodriguessv10@gmail.com,Coca-Cola,vendedor pleno,19997027519,linkedin.com/in/rodrigues-vinícius-
+Richard,Lima,,Coca-Cola,vendedor,16981865558,linkedin.com/in/richard-lima-850a1017a
+Elison,Carneiro,,Coca-Cola,vendedor,17996232223,linkedin.com/in/elison-carneiro-962466222
+Heriton,Tiago Dos Santos,heriton_09@hotmail.com,Coca-Cola,vendedor senior,41999647171,linkedin.com/in/heriton-tiago-dos-santos
+Thaís,Nunes Ferreira,thaisnus61@gmail.com,Danone,analista de negocios,11958526334119825226011158526334,linkedin.com/in/thais-nunes-ferreira
+Veronica,Torres Garcia,djvtg@hotmail.com,Danone,gerente de vendas canal indireto,719918418217130230660,linkedin.com/in/veronica-torres-garcia-21657641
+Matheus,Louvato Caminiti,matheus1503_lc@hotmail.com,correios,auxiliar administrativo,14996680071149972578721434135677,linkedin.com/in/matheus-louvato-caminiti-b75212b4
+Eduardo,Correa Dias,edu.correadias@gmail.com,correios,motorista,249817146012498121453424978350864,linkedin.com/in/eduardo-correa-dias-66891267
+Renato,Esteves Silva,renato_estevez@hotmail.com,Nestlé,gerente de engenharia de projetos,41997800289119931187834134044954,linkedin.com/in/renato-esteves-149abb45
+Rodrigo,Godoy,,Nestlé,gerente de produção,14981258994,linkedin.com/in/godoyrodrigo
+Guilherme,Salvadego de Medeiros,guilherme.salvadego@gmail.com,Nestlé,especialista de trade marketing,119851738281198523455911949404553,linkedin.com/in/guilhermesmedeiros
+Julia,Simão de Almeida Cruz,juliasacg@gmail.com,Nestlé,repositor,44997555827,linkedin.com/in/julia-simão-de-almeida-cruz-1a8a46199
+Bruno,Alberto Domingues Amancio,,Nestlé,analista de trade marketing,149961685631499148200714996699586,linkedin.com/in/bruno-domingues-678558149
+Claudio,Domingos Goncalves de Carvalho,claudiocarvalho@gmail.com,Nestlé,senior de atendimento ao cliente,859974929408599994886785999375669,linkedin.com/in/claudiodgcarvalho-customerservice
+Eduardo,Santos de Jesus,eduhardmetal@hotmail.com,CIMED,representante comercial de vendas,11995017735114639897111980888337,linkedin.com/in/eduardo-santos-de-jesus-a69b5268
+Orlando,Castanheira Dias Junior,orlando.castanheira@hotmail.com,CIMED,supervisor de vendas,63992542067639925420676399237164063984871577,linkedin.com/in/orlando-castanheira-dias-júnior-43b3a1125
+Daniela,Bussadori,danielabussadori@gmail.com,CIMED,representante comercial de vendas,1197759771411981246097119401041411143268363,linkedin.com/in/danielabussadori120980
+Guilherme,Cesar Matos,guilhermecesarmatosvendas@gmail.com,CIMED,representante comercial,94984125027949926470799499264730094992646274,linkedin.com/in/guilhermecesarrepresentaçãocomercial
+Caius,Freitas,caius_freitas17@hotmail.com,CIMED,vendedor de varejo,3496744133,linkedin.com/in/caius-freitas-06426494
+Tcharles,Diego da Silva Mendes,dimendes204@hotmail.com,CIMED,representante comercial de vendas,499995722704999150743949988685022,linkedin.com/in/tcharles-diego-557161151
+Weverton,Ribeiro da Silva,wevertonribeirosilva@yahoo.com,CIMED,mecanico 1,31991607631,linkedin.com/in/weverton-ribeiro-97981526b
+Joubert,Manoel Ferreira Júnior,joubert_ferreirajr@hotmail.com,CIMED,representante de vendas,739994372617332616198,linkedin.com/in/joubert-manoel-ferreira-júnior-1a8487204
+Tiago,Romão da Silva,botosud01@gmail.com,CIMED,representante comercial,18991493372189881816691898821160218996756813,linkedin.com/in/tiago-romão-51a262162
+Vanilson,De Menezes Aguiar,vanilson-menezes@hotmail.com,Unilever,Profissional de merchandising,119497259931195989242311953234669,linkedin.com/in/vanilson-de-menezes-aguiar-70675398
+Stefani,Jussara Magrini,stefani.bruno.ph@gmail.com,Unilever,promotor de vendas,1998185175519998303363,linkedin.com/in/stefani-jussara-magrini-358110189
+Raimundo,Antônio Miguel Neto,raimundo_neto_17@hotmail.com,Unilever,vendedor,81992159475,linkedin.com/in/raimundo-antônio-miguel-neto-704371217
+Luciano,Lessa,,Unilever,executivo de vendas,61363986826199971233361992642032,linkedin.com/in/luciano-lessa-6346b6251
+Edison,Prado,edison_prado@terra.com.br,Unilever,gerente regional senior de vendas,,linkedin.com/in/edison-prado-4b4555b
+João,Roberto,,Danone,vendedor/promotor,83991061581,linkedin.com/in/joão-roberto-837b9b296
+Marcela,Sanches,sanchesmarcela042@gmail.com,Marilan,supervisor trade marketing,149811761511433068896,linkedin.com/in/marcela-sanches-trade
+Rafael,Henequim,rafaelhenequim@hotmail.com,Marilan,Executivo de contas,41996115476419102142664132566732,linkedin.com/in/rafael-henequim-6aa3003b
+Jaconias,Gebosky Ferreira,gebosky@gmail.com,Marilan,vendedor,3197180386731993985625319835738467534137600,linkedin.com/in/jaconias-gebosky-ferreira-35a30229a
+Marcio,Roberto Sandoval Mendonça,marciorsmendonca@hotmail.com,PepsiCo,gerente de vendas,35984320777359842666851936236532,linkedin.com/in/marcio-roberto-sandoval-mendonça-9a12ba50
+Wagner,Roberto Silva,wagnetvilma@hotmail.com,Coca-Cola,executivo de auto serviço,149987200446798425185712992344186,linkedin.com/in/wagner-roberto-silva-
+Darcileno,da Matta,darcilenomata@gmail.com,CIMED,supervisor de vendas,62982108836,linkedin.com/in/darcileno-da-matta
+Marques,Alves,alvesfoz2@hotmail.com,CIMED,representante comercial de vendas,,linkedin.com/in/marques-alves-267b9991
+Vanessa,Loureiro de Brito,vanessa.ldebrito@gmail.com,CIMED,supervisora de contas,419882223064199128373049999746040,linkedin.com/in/vanessa-brito-824b8b19a
+Rafael,Soares Cordeiro,rafaelsc10@hotmail.com,Marilan,executivo de contas,439845312904398486336743999168959,linkedin.com/in/rafaelsoarescordeiro
+Maykon,Batista,,Nestlé,vendedor externo,16991943771,linkedin.com/in/maykon-batista-597691132
+Carlos,Junior Linhares,carlosjuniorlinhares@gmail.com,CIMED,representante executivo de vendas,,linkedin.com/in/carlos-junior-linhares-a0388a1a2
+Bruno,Sposito Gomes de Siqueira,brunospositoo@gmail.com,CIMED,representante de vendas,1899786100314981542991,linkedin.com/in/bruno-sposito-20a827191
+Carlos,Celio da Silva Marques,carloscsmarques@gmail.com,CIMED,gerente distrital de vendas,929857383323198020119292981355886,linkedin.com/in/carlos-celio-da-silva-marques-5b40bb38
+Alone,Braga dos Santos,alonebraga2@gmail.com,CIMED,representante de contas,219965689902199974836821967493724,linkedin.com/in/alone-braga-0a240521b
+Wellington,Lucena,wlusenna@yahoo.com.br,CIMED,coordenador de contas,,linkedin.com/in/wellingtonlucenacomercial
+Luis,Gabriel Bastos De Freitas,,CIMED,vendedor,66996764595,linkedin.com/in/luis-gabriel-bastos-de-freitas-5793b4332
+Daniel,Muniz,repdmuniz21@gmail.com,CIMED,representante comercial de vendas,,linkedin.com/in/daniel-muniz-b7a55912a
+Robson,Duda,robsonduda82@gmail.com,CIMED,representante comercial de vendas,8299622095282981830633,linkedin.com/in/robson-duda-28bb4421a
+Luciano,Marcos Batista da Silva,l.marcos.silva@hotmail.com,CIMED,gerente distrital,119666378204199971242341988141533,linkedin.com/in/luciano-marcos-batista-silva-153b8773
+Caio,Vinicius Souza Silva,viniciuscaio40@gmail.com,Mondelez,especialista de projetos,119943944651194786493311972172917,linkedin.com/in/caiossilva
+Leticia,de Castro Melhado,lee_thyy@hotmail.com,Unilever,coordenadora de trade marketing,11987263899,linkedin.com/in/leticiadecastromelhado
+Jaime,Francisco Gurgel,jaimegurgel@uol.com.br,Mondelez,executivo de contas,21989574189339881741892132685183,linkedin.com/in/jaime-gurgel-52263524
+Bruno,Assirio Namorato,brunonamorato@yahoo.com.br,Mondelez,chefe de vendas-pedido ao recebimento,31997875781719816388693197545721421988520636,linkedin.com/in/bruno-namorato-243aa255
+Fábio,Voltolini,fabinhovoltolini01@gmail.com,Mondelez,coordenador desenvolvimento e negocios,479996275084798436399647984990881,linkedin.com/in/fabiovoltolini
+Hallypher,Deyrrikson Ferreira Colares,hallypher2017@gmail.com,CIMED,representante comercial de vendas,6799804358544988017520,linkedin.com/in/hallypher-colares-9979aa211
+Daniel,Marcos Brito,danielgcradv@gmail.com,CIMED,representante externo de vendas,3299910021537984135711329886086993234871323,linkedin.com/in/daniel-marcos-brito-7b4a54207
+José,Liliquer Costa de Oliveira,j_liliker@hotmail.com,Mondelez,executivo de contas,69999330049699924800508599840363689999211204,linkedin.com/in/liliquer-oliveira
+Marco,Vieira Dorea,marcosdorea@hotmail.com,CIMED,representante comercial,739881447487398126308873988812637,linkedin.com/in/marcos-vieira-dórea-51a1271a6
+Paulo,Artur Kuhs Silveira,paulokuhs@gmail.com,CIMED,supervisor de vendas,549962005385498112677145996111798,linkedin.com/in/paulo-artur-kuhs-silveira-4316ab1aa
+Douglas,Paggioro Gonçalves,drdouglas2511@live.com,CIMED,representante comercial de vendas,11983996440114508292811972263800,linkedin.com/in/douglas-paggioro-gonçalves-52a720201
+Jean,Antonio Arantes,jeanarantes@hotmail.com,CIMED,representante comercial de vendas,41996734370199656422604133665763,linkedin.com/in/jean-antonio-arantes-534562167
+Paulo,Henrique Deucher,paulodeucher1961@gmail.com,CIMED,representante comercial de vendas,4799111229647930531698479919269494732096695,linkedin.com/in/paulo-henrique-deucher-4753501a8
+Margarete,Oliveira,maga.margo@hotmail.com,Britvic,coordenador de distribuidor MG,,linkedin.com/in/margarete-oliveira-9a44a466
+Diaime,Fernandes,diaim_@hotmail.com,Britvic,agente distribuidor,24988531223249930308172422317264,linkedin.com/in/diaime-fernandes-8a9515b8
+Darlison,Henrique de Oliveira Barbosa,darlison-henrique@hotmail.com,Britvic,promotor de vendas,81984219404,linkedin.com/in/darlison-henrique-barbosa
+Regiane,Ramos Ferreira,regirfl13@gmail.com,Britvic,promotor de vendas,11963367552123939361011968754873,linkedin.com/in/regianerferreira
+Pablo,Gomes Ferreira,pablo.ferreiradesign@gmail.com,Britvic,promotor de vendas,2197047248421968911208,linkedin.com/in/pablo-ferreira-3a7945233
+Giovanna,Dolence,gidolence@hotmail.com,Britvic,analista de marketing pleno,119892703181145058228,linkedin.com/in/giovanna-dolence
+Dayane,Farias Barbosa,dayanefbarbosa@gmail.com,Nestlé,engenheira de projetos,19988247199,linkedin.com/in/dayanefb
+Philip,Serafin Birchler,philipserafin@gmail.com,Nestlé,engenheiro de projetos,27999953085273075006827998144052,linkedin.com/in/philip-serafin-birchler
+Alysson,Rogério da Silva,eng.alysson.silva77@gmail.com,Marilan,gerente de manutenção,149813805631499144429162981146720,linkedin.com/in/alysson-rogério-da-silva-56790274
+Ronaldo,Antonio Marques,ronaldomarques23@hotmail.com,Nestlé,executivo de vendas PL,419964960994199749219741999638163,linkedin.com/in/ronaldo-antonio-a9180714b
+Leonardo,de Campos Santos,leeeh.c-s@hotmail.com,Unilever,tecnico de atendimento e vendas,1999116390119987559345,linkedin.com/in/leonardo-cs
+Leonardo,Santos Junca,leo_junca@hotmail.com,Nestlé,executivo de vendas,27998339855,linkedin.com/in/leonardo-santos-junca-a051a91a2
+Dione,Santos da Silva,dionerepresentante@gmail.com,Nestlé,auxiliar de logistica,,linkedin.com/in/dione-santos-da-silva-810013135
+Altieris,Claudino dos Santos,altieris1977@gmail.com,Nestlé,gerente JR trade marketing,13997311730139917413591333426803,linkedin.com/in/altieris-claudino-dos-santos-4b613675
+Fabio,Augusto Costa de Souza,fabio_costasouza@yahoo.com,Nestlé,coordenador e merchandising,919815047689198341690591991365455,linkedin.com/in/fábio-costa-18500a130
+Matheus,Henrique Bonfim de Carvalho,matheus.imlk@hotmail.com,Nestlé,lider de merchandising,219836792562197517620021911092028,linkedin.com/in/matheus-henrique-b6016b220
+Renan,Gomes Gonçalves,renangg@hotmail.com,Nestlé,assistente de deposito,75981060125759997759097536254805,linkedin.com/in/renan-gomes-gonçalves
+Isabela,Palhano,isabelapalhan0@hotmail.com,Nestlé,analista administrativo de vendas,11958657643,linkedin.com/in/isabela-palhano
+Gabriel,Gaspar Simone,gabrielgaspar_92@hotmail.com,Nestlé,planejamento de suprimentos intermercado,,linkedin.com/in/gabriel-gaspar-simone
+Herilson,Henrique Neves de Holanda,herilson.neves@hotmail.com,Danone,gerente area norte,92985508728929913471379230839118,linkedin.com/in/herilson-neves-b50273130
+Alessandro,Camilo,alessandrobo@hotmail.com,Danone,gerente de contas,41991695681,linkedin.com/in/alessandro-camilo-b7408a3a
+Gleidison,Vieira de Sousa,gleidisonsi@hotmail.com,Danone,gerente de area-canal direto e indireto,619963978696199642608261992246095,linkedin.com/in/gleidison-vieira-de-sousa-b600b347
+Neale,Maria Silva da Costa,nealecosta@yahoo.com.br,Danone,representante de visitas medicas,81997391881813204756881985776081,linkedin.com/in/neale-costa-1a4733229
+Bruno,Veronesi Abilio,Veronesiabilio@icloud.com,Danone,gerente de vendas,179922600541798826082617991194345,linkedin.com/in/bruno-veronesi-abilio
+Gabriel,de Lima Campano,gabrielcampano@gmail.com,Danone,chefe de vendas,2199683455721992703948,linkedin.com/in/gabriel-campano-95917811
+Eliane,da Costa Oliveira,eliane.oliveira23@hotmail.com,Itambé,analista comercial,3199193148831989338337,linkedin.com/in/eliane-oliveira-14549b99
+Gleison,Roberto da Cruz,gleison_gdp@hotmail.com,Itambé,representante comercial,359880417603598842887635998181500,linkedin.com/in/gleison-roberto-da-cruz-7429b37b
+Andrea,Grander Vaz,deiagvaz@hotmail.com,Kraft-Heinz,especialista trade categoria,1198999292011999007647,linkedin.com/in/andrea-grander-vaz-017852b4
+Abel,Bueno de Godoi,abelbuenodegodoi@gmail.com,Kraft-Heinz,supervisor de vendas,119611637531198869157741998283822,linkedin.com/in/abel-bueno-de-godoi-bb357579
+Manoel,Branco,m.branco@hotmail.com,Kraft-Heinz,gestor de indiretos food service,91993685474,linkedin.com/in/manoel-branco-1a675898
+Fernanda,Fontao Covo,fe.covo@hotmail.com,Nestlé,coordenadora de trade marketing,11999612271119565767181125945371,linkedin.com/in/fernanda-covo-6a827582
+Gabrielle,Maria Soares de Oliveira,gabimso@hotmail.com,Kraft-Heinz,supervisora de produção,319928628253199698280831987192522,linkedin.com/in/gabriellemsoliveira
+Adriano,de Almeida Silva,adrianoclub@hotmail.com,Kraft-Heinz,consultor agricola,349969025863432128347,linkedin.com/in/adrianoalmeida90
+Larissa,Sigeiro Puerta Mascarenhas,larissa.sigeiro@gmail.com,Kraft-Heinz,coordenadora categoria comercial,,linkedin.com/in/larissasigeiro
+Thiago,Amaral Pires,thiago_amaral_pires@hotmail.com,Kraft-Heinz,gerente de vendas,61984244577619984460316132566924,linkedin.com/in/thiago-amaral-pires-6a0a8790
+Johnatan,Correia Mantay de Paula,correia.johnatan@gmail.com,Kraft-Heinz,coordenador de colaboração com o cliente,279973797412799905611327999335405,linkedin.com/in/johnatan-correia
+Thais,Rocha Tiradentes,thaisrtiradentes@gmail.com,Kraft-Heinz,analista de costumer junior,62981641311,linkedin.com/in/thais-rocha-4a3b76190
+Daniely,Pinheiro Bezerra,danylegs38@gmail.com,Kraft-Heinz,supervisora da qualidade,6399933371762985353102,linkedin.com/in/daniely-pinheiro-bezerra-5a078ba4
+Larissa,Morais da Silva,larissalmds.lm@gmail.com,Kraft-Heinz,supervisora de atendimento ao cliente,62994068032,linkedin.com/in/larissa-morais-da-silva-bba592278
+Alexandra,Lapot Carneiro,lapotalexandra@gmail.com,Kraft-Heinz,analista de marketing senior,119145759946298151565862993349596,linkedin.com/in/alexandralapot
+Ana,Katharina De Mello,aninhamello_123@hotmail.com,Kraft-Heinz,analista senior de trade marketing,1122270735,linkedin.com/in/ananogueiramello
+John,Charles Long,john0489@gmail.com,Kraft-Heinz,gerente de projetos,11987713392119507947971137392423,linkedin.com/in/johncharleslong
+Fernanda,Gawski,fernanda.gawski@gmail.com,Kraft-Heinz,gerente de compras,6699988140762996441464,linkedin.com/in/fernanda-gawski
+Gustavo,Fileti da Silva,,correios,gerente assistente,3299168856532988078500,linkedin.com/in/gustavo-fileti-309429303
+Raniere,Mussi,ranierimussi@gmail.com,correios,logistica,169940469459198290569724992270293,linkedin.com/in/raniere-mussi
+Daiane,Vitoria Santos,daianevitoria2618@gmail.com,correios,auxiliar de produção,,linkedin.com/in/daiane-santos-b10170219
+Micael,Lima,eumicael18@gmail.com,correios,carteiro,85996002776,linkedin.com/in/micael-lima-42272a203
+Edson,Salustiano Junior,edsonjrsalustiano@hotmail.com,Kraft-Heinz,supervisor de trade,11992090423119963273811128849908,linkedin.com/in/edson-salustiano-júnior-a8443413b
+Leevancler,de Abreu Silva,mestrelee@hotmail.com,Kraft-Heinz,coordenador de utilidades,6298226717662991193475,linkedin.com/in/lee-silva-0456773a
+Diego,Machado dos Santos,rosemeirefabbri@gmail.com,Kraft-Heinz,Profissional de merchandising,1699794411916996293447,linkedin.com/in/diego-machado-dos-santos-90561b271
+Moises,Henrique da Silva Cruz,moiseshenriquemhs@gmail.com,Kraft-Heinz,supervisor de logistica lll,62993157100,linkedin.com/in/moisés-cruz-843557171
+Juliano,Michelato,jmiquelato@gmail.com,Kraft-Heinz,gerente de marketing,,linkedin.com/in/juliano-michelato-3493891b
+Luciano,Barros Lopes,lucianobarroslopes@hotmail.com,Kraft-Heinz,gerente de vendas,1198649909265981243937113213186511970481091,linkedin.com/in/luciano-barros-lopes-a98b1b4a
+Ronaldo,Pires de Morais,ronaldo.morais41@gmail.com,Kraft-Heinz,gestor de distribuição,1199357875598985506266,linkedin.com/in/ronaldo-pires-de-morais
+Laysa,Cristina da Silva,cristina_laysa@yahoo.com,correios,auxiliar de logistica,,linkedin.com/in/laysa-silva-4a988a30a
