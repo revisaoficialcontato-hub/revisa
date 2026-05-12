@@ -1,4 +1,4 @@
-# Fluxo de Trabalho — Operação de Vendas
+-c      c       # Fluxo de Trabalho — Operação de Vendas
 
 ---
 
@@ -15,14 +15,14 @@
 
 ---
 
-### 1.1 Manual da Marca 🔴
+### 1.1 Manual da Marca 🔴 Feito
 **O que é:** Definir nome, logo, cores, tipografia e tom de voz da empresa.
 **Depende de:** Relatório e briefing do cliente.
 **Desbloqueia:** Site, redes sociais, criativos, emails em HTML e tudo que for visual.
 
 ---
 
-### 1.2 Validação Jurídica das Copies 🔴
+### 1.2 Validação Jurídica das Copies 🔴 Feito
 **O que é:** Levar os emails e mensagens do LinkedIn para um advogado revisar.
 **Depende de:** Relatório do cliente + copies finalizadas.
 **Desbloqueia:** Disparo de emails, LinkedIn e WhatsApp.
@@ -34,21 +34,21 @@
 
 ---
 
-### 2.1 Site Institucional 🟡
+### 2.1 Site Institucional 🟡 Feito
 **O que é:** Criar e publicar o site da empresa com página institucional e blog.
 **Depende de:** Manual da marca.
 **Desbloqueia:** Pixel Meta, SEO, credibilidade para campanhas de tráfego.
 
 ---
 
-### 2.2 LinkedIn e Instagram 🟡
+### 2.2 LinkedIn e Instagram 🟡 Feito
 **O que é:** Criar os perfis oficiais da empresa nas duas plataformas.
 **Depende de:** Manual da marca.
 **Desbloqueia:** Pré-população de conteúdo, automações, tráfego orgânico.
 
 ---
 
-### 2.3 Verificação Selo Azul (WhatsApp e Instagram) 🟡
+### 2.3 Verificação Selo Azul (WhatsApp e Instagram) 🟡 Feito
 **O que é:** Solicitar verificação oficial nas plataformas da Meta.
 **Depende de:** CNPJ ativo, site no ar, perfis criados.
 **Observação:** Processo burocrático e com prazo incerto — iniciar o quanto antes.
@@ -60,28 +60,28 @@
 
 ---
 
-### 3.1 Blog Posts (5 artigos) 🟡
+### 3.1 Blog Posts (5 artigos) 🟡 Feito
 **O que é:** Produzir 5 artigos para o site sobre direitos trabalhistas e adiantamento de crédito.
 **Depende de:** Site no ar.
 **Desbloqueia:** SEO orgânico, credibilidade, conteúdo para LinkedIn.
 
 ---
 
-### 3.2 Pré-popular LinkedIn 🟡
+### 3.2 Pré-popular LinkedIn 🟡 Feito
 **O que é:** Publicar os blog posts e conteúdos iniciais no perfil do LinkedIn antes de iniciar as automações.
 **Depende de:** Perfil criado + blog posts prontos.
 **Objetivo:** Dar credibilidade ao perfil antes de abordar leads.
 
 ---
 
-### 3.3 Pré-popular Instagram 🟡
+### 3.3 Pré-popular Instagram 🟡 Feito
 **O que é:** Publicar posts, carrosséis e reels iniciais antes de iniciar automações.
 **Depende de:** Perfil criado + artes e scripts prontos.
 **Objetivo:** Perfil não pode estar vazio quando leads visitarem.
 
 ---
 
-### 3.4 Criação de Conteúdo Recorrente 🟢
+### 3.4 Criação de Conteúdo Recorrente 🟢 Feito
 **O que é:** Produzir copies, artes e vídeos para posts, reels, stories e carrosséis de forma contínua.
 **Depende de:** Manual da marca.
 **Observação:** Fluxo contínuo — não tem fim definido.
@@ -93,28 +93,28 @@
 
 ---
 
-### 4.1 Pixel Meta + Eventos de Conversão 🟡
+### 4.1 Pixel Meta + Eventos de Conversão 🟡 Feito
 **O que é:** Instalar o pixel do Meta no site e configurar os eventos de conversão (lead, contato, visualização).
 **Depende de:** Site no ar.
 **Desbloqueia:** Tráfego direcionado, remarketing, métricas do funil.
 
 ---
 
-### 4.2 Estruturar Funil de Email Marketing 🟡
+### 4.2 Estruturar Funil de Email Marketing 🟡 Feito
 **O que é:** Configurar a ferramenta de disparo, subir as copies em HTML, definir gatilhos e instalar pixel de visualização.
 **Depende de:** Copies validadas juridicamente + HTML dos emails prontos.
 **Desbloqueia:** Disparo automático da sequência D+0, D+2, D+7.
 
 ---
 
-### 4.3 Estruturar Funil LinkedIn 🟡
+### 4.3 Estruturar Funil LinkedIn 🟡 Feito
 **O que é:** Configurar a ferramenta de automação, subir as sequências de mensagens e definir o público-alvo.
 **Depende de:** Perfil pré-populado + copies validadas.
 **Desbloqueia:** Disparo automático da sequência D+0, D+2, D+7 no LinkedIn.
 
 ---
 
-### 4.4 Estruturar Automação Instagram 🟡
+### 4.4 Estruturar Automação Instagram 🟡 Pendente
 **O que é:** Configurar automação de follow e DM para quem seguir de volta.
 **Depende de:** Perfil pré-populado.
 **Desbloqueia:** Captação orgânica de leads via Instagram.
@@ -126,28 +126,28 @@
 
 ---
 
-### 5.1 Campanhas de Tráfego 🔴
+### 5.1 Campanhas de Tráfego 🔴 Pendente
 **O que é:** Subir criativos, configurar público com base direcionada e ativar campanhas no Meta Ads.
 **Depende de:** Pixel instalado + criativos prontos + base de leads higienizada.
 **Desbloqueia:** Tráfego pago para o funil.
 
 ---
-
-### 5.2 Remarketing 🔴
+ 
+### 5.2 Remarketing 🔴 Pendente
 **O que é:** Criar campanhas específicas para quem visualizou o vídeo mas não converteu.
 **Depende de:** Pixel instalado + campanhas de tráfego rodando.
 **Desbloqueia:** Segunda chance de conversão com leads mornos.
 
 ---
 
-### 5.3 Testes A/B WhatsApp 🟡
+### 5.3 Testes A/B WhatsApp 🟡 Pendente
 **O que é:** Disparar variações de copy para leads impactados no funil e medir qual performa melhor.
 **Depende de:** Leads no funil + ferramenta de disparo configurada.
 **Observação:** Testar copies, formatos (texto, imagem, áudio) e estratégias de delete/visualização única.
 
 ---
 
-### 5.4 Discadora 🟡
+### 5.4 Discadora 🟡 Pendente
 **O que é:** Acionar ligações automáticas para leads que não responderam após D+1 do WhatsApp.
 **Depende de:** Fornecedor de discadora contratado + leads qualificados no funil.
 **Observação:** Definir fornecedor com o cliente.
