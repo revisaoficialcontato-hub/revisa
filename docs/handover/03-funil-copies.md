@@ -117,18 +117,6 @@ Todas as copies de prospecção usam o mesmo conjunto de placeholders:
 
 ---
 
-## 5. Testes A/B/C planejados (WhatsApp Blast)
-
-| Variante | Posicionamento | Volume | Identidade |
-|---|---|---|---|
-| **A** | Direta com urgência | 250 | Marca Revisa |
-| **B** | Curiosidade + prova social | 250 | Marca Revisa |
-| **C** | Agressiva | 100 | Sem identidade, número separado |
-
-Detalhe da segmentação e métricas mínimas: [02-leads-prospeccao.md](02-leads-prospeccao.md).
-
----
-
 ## 6. Indicadores do funil
 
 Por canal:

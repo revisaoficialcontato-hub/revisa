@@ -79,12 +79,6 @@ Operador de produção, Líder de produção, Técnico de manutenção, Auxiliar
 
 **Já presentes na base:** Unilever, PepsiCo, Coca-Cola FEMSA / Coca-Cola Brasil, Nestlé, Mondelez, Kraft-Heinz, Danone, Mars, CIMED, Marilan, Itambé, Britvic, Correios.
 
-**Adjacentes para expandir** (mesmo perfil FMCG/grande empresa com vendedor CLT):
-- Ambev, BRF, JBS, Seara, Sadia, Perdigão
-- M. Dias Branco, Bunge, Cargill, Cocamar
-- Ypê, Bombril, Reckitt, Colgate-Palmolive
-- L'Oréal, P&G, Johnson & Johnson Consumer
-- Hypera, Eurofarma, EMS (farma — propagandista é cargo de altíssima aderência)
 
 ### 4.4 Excluir leads já contatados
 
@@ -104,26 +98,7 @@ Sequência obrigatória antes de subir em qualquer ferramenta de blast:
 
 ---
 
-## 6. Segmentação para testes A/B/C
-
-Volume-alvo do primeiro teste de WhatsApp Blast: **600 leads novos**, divididos:
-
-| Variante | Volume | Copy | Identidade |
-|---|---|---|---|
-| **A — Direta com urgência** | 250 | Ver [03-funil-copies.md](03-funil-copies.md) | Marca Revisa |
-| **B — Curiosidade + prova social** | 250 | Ver [03-funil-copies.md](03-funil-copies.md) | Marca Revisa |
-| **C — Agressiva** | 100 | Sem identidade da marca | Chip e número separados |
-
-Randomização feita **antes** do disparo e mantida (não trocar leads de variante no meio do teste).
-
-**Métricas mínimas para concluir o A/B com significância:**
-- ≥ 200 disparos efetivos por variante (entregue + número válido)
-- ≥ 7 dias de janela de resposta
-- Tracking: disparado, entregue, visualizado, respondido, agendado, denunciado/bloqueado
-
----
-
-## 7. Cuidados de LGPD e canal
+## 6. Cuidados de LGPD e canal
 
 **Base legal usada:** interesse legítimo (Art. 7º, IX da LGPD) para prospecção B2B.
 
@@ -139,7 +114,7 @@ Randomização feita **antes** do disparo e mantida (não trocar leads de varian
 
 ---
 
-## 8. Checklist operacional (antes de disparar)
+## 7. Checklist operacional (antes de disparar)
 
 - [ ] Past Company configurado (não Current)
 - [ ] Job change last 24 months
