@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Nunito, Instrument_Serif, DM_Sans } from 'next/font/google'
 import './globals.css'
 import ScrollReveal from '@/components/ScrollReveal'
+import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 const nunito = Nunito({
   subsets: ['latin'],
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         {children}
+        <FloatingWhatsApp />
         <ScrollReveal />
       </body>
     </html>

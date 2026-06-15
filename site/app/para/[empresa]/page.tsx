@@ -5,6 +5,7 @@ import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import ComoFunciona from '@/components/ComoFunciona'
 import Faq from '@/components/Faq'
+import CtaBanner from '@/components/CtaBanner'
 import CtaFinal from '@/components/CtaFinal'
 import Footer from '@/components/Footer'
 import {
@@ -43,6 +44,7 @@ export default async function EmpresaPage({ params }: { params: Promise<{ empres
       <EmpresaEspecializacao nome={empresa.nome} preposicao={empresa.preposicao} />
       <EmpresaParaQuem nome={empresa.nome} />
       <EmpresaOQueEntra />
+      <CtaBanner texto={`Trabalhou na ${empresa.nome}? Entenda se há valores a receber — sigiloso e sem compromisso.`} />
       <ComoFunciona />
       <EmpresaSigilo />
       <Faq />
