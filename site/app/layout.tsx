@@ -39,6 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     >
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="facebook-domain-verification" content="ikmfdcjx2eb7xk0sotmjs2g6q39nnv" />
       </head>
       <body>
         {children}
