@@ -13,7 +13,7 @@ export default function Footer() {
             <a href="/" className="footer-logo">
               <img src="/logo.png" alt="Revisa" />
             </a>
-            <p className="footer-tagline">
+            <p className="footer-tagline">h
               Revisão técnica de direitos trabalhistas para ex-funcionários de grandes empresas.
             </p>
           </div>
@@ -58,7 +58,7 @@ export default function Footer() {
 
       <div className="footer-bottom-wrap">
         <div className="footer-bottom">
-          <span className="footer-copyright">© 2026 Revisa · Todos os direitos reservados</span>
+          <span className="footer-copyright">© 2026 REVISA COMUNICAÇÃO E PROJETOS LTDA — CNPJ 66.812.472/0001-57. Todos os direitos reservados.</span>
           <div className="footer-legal">
             <a href="#" className="footer-legal-link">Privacidade</a>
             <a href="#" className="footer-legal-link">Termos de uso</a>
