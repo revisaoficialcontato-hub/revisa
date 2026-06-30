@@ -1,13 +1,10 @@
 import { getAllPosts, getPostDestaque } from '@/lib/posts'
-import { empresas } from '@/data/empresas'
-
-const empresaNomes = new Set(empresas.map((e) => e.nome))
 
 export default function ArtigosBlog() {
   const destaque = getPostDestaque()
   const todos = getAllPosts()
   const outros = todos.filter((p) => !p.destaque).slice(0, 2)
-  const temas = [...new Set(todos.map((p) => p.tag))].filter((t) => !empresaNomes.has(t))
+  const temas = [...new Set(todos.map((p) => p.tag))]
 
   return (
     <section className="artigos-blog artigos-tipografia" id="artigos-blog">
