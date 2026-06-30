@@ -1,7 +1,4 @@
-import { empresas } from '@/data/empresas'
 import { WA } from '@/lib/wa'
-
-const topEmpresas = empresas.slice(0, 4)
 
 export default function Footer() {
   return (
@@ -38,19 +35,6 @@ export default function Footer() {
               <a href="/blog" className="footer-nav-link">Remuneração variável</a>
               <a href="/blog" className="footer-nav-link">FGTS</a>
               <a href="/blog" className="footer-nav-link footer-nav-link--accent">Ver todos os artigos →</a>
-            </div>
-          </div>
-
-          {/* Coluna 4 — Por empresa */}
-          <div className="footer-col">
-            <h4 className="footer-col-title">Por empresa</h4>
-            <div className="footer-nav">
-              {topEmpresas.map((e) => (
-                <a key={e.slug} href={`/para/${e.slug}`} className="footer-nav-link">
-                  Ex-funcionários {e.preposicao}
-                </a>
-              ))}
-              <a href="/#empresas" className="footer-nav-link footer-nav-link--accent">Ver todas as empresas →</a>
             </div>
           </div>
         </div>
