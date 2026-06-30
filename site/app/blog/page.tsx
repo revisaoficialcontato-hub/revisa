@@ -1,7 +1,6 @@
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import { getAllPosts, getPostDestaque } from '@/lib/posts'
-import { empresas } from '@/data/empresas'
 import BlogListagem from './BlogListagem'
 
 export const metadata = {
@@ -35,7 +34,6 @@ export default function BlogPage() {
           <BlogListagem
             postDestaque={postDestaque}
             postsList={postsList}
-            empresas={empresas}
           />
         </div>
       </section>
