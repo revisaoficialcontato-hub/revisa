@@ -34,7 +34,7 @@ export const metadata: Metadata = {
           description:
                   'A Revisa faz uma revisão técnica e sigilosa para ex-funcionários de grandes empresas, com foco em identificar valores que podem não ter sido corretamente pagos.',
           siteName: 'REVISA COMUNICAÇÃO E PROJETOS LTDA',
-          url: 'https://revisa.app',
+          url: 'https://www.revisaoficial.com',
           type: 'website',
           locale: 'pt_BR',
     },
