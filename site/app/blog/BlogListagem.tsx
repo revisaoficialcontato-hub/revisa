@@ -2,20 +2,16 @@
 
 import { useState, useEffect, useRef } from 'react'
 import type { Post } from '@/lib/posts'
-import type { Empresa } from '@/data/empresas'
 
 import { WA } from '@/lib/wa'
 
 export default function BlogListagem({
   postDestaque,
   postsList,
-  empresas,
 }: {
   postDestaque: Post
   postsList: Post[]
-  empresas: Empresa[]
 }) {
-  const [slugEmpresa, setSlugEmpresa] = useState<string | null>(null)
   const [tema, setTema] = useState<string | null>(null)
   const listaRef = useRef<HTMLDivElement>(null)
 
@@ -32,18 +28,14 @@ export default function BlogListagem({
     }
   }, [])
 
-  const empresaNomes = new Set(empresas.map((e) => e.nome))
-  const temasFiltro = [...new Set([postDestaque, ...postsList].map((p) => p.tag))].filter(
-    (t) => !empresaNomes.has(t)
-  )
+  const temasFiltro = [...new Set([postDestaque, ...postsList].map((p) => p.tag))]
 
-  const filtroAtivo = !!(slugEmpresa || tema)
+  const filtroAtivo = !!tema
 
   // Quando há filtro ativo, inclui o post em destaque na lista geral para não sumir
   const candidatos = filtroAtivo ? [postDestaque, ...postsList] : postsList
 
   const postsFiltrados = candidatos.filter((p) => {
-    if (slugEmpresa && !p.empresas.includes(slugEmpresa)) return false
     if (tema && p.tag !== tema) return false
     return true
   })
@@ -76,10 +68,10 @@ export default function BlogListagem({
         {/* Lista de posts */}
         <div ref={listaRef} className="blog-posts-header">
           <h3 className="blog-posts-title">Artigos recentes</h3>
-          {(slugEmpresa || tema) && (
+          {tema && (
             <button
               className="blog-clear-filter"
-              onClick={() => { setSlugEmpresa(null); setTema(null) }}
+              onClick={() => setTema(null)}
             >
               Limpar filtros ×
             </button>
@@ -114,22 +106,6 @@ export default function BlogListagem({
 
       {/* Sidebar */}
       <aside className="blog-sidebar">
-        {/* Filtro por empresa */}
-        <div className="sidebar-block">
-          <h4 className="sidebar-title">Filtrar por empresa</h4>
-          <div className="sidebar-pills">
-            {empresas.map((e) => (
-              <button
-                key={e.slug}
-                className={`sidebar-pill${slugEmpresa === e.slug ? ' active' : ''}`}
-                onClick={() => setSlugEmpresa(slugEmpresa === e.slug ? null : e.slug)}
-              >
-                {e.nome}
-              </button>
-            ))}
-          </div>
-        </div>
-
         {/* Filtro por tema */}
         <div className="sidebar-block">
           <h4 className="sidebar-title">Filtrar por tema</h4>
