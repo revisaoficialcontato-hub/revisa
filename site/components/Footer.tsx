@@ -13,7 +13,7 @@ export default function Footer() {
             <a href="/" className="footer-logo">
               <img src="/logo.png" alt="Revisa" />
             </a>
-            <p className="footer-tagline">h
+            <p className="footer-tagline">
               Revisão técnica de direitos trabalhistas para ex-funcionários de grandes empresas.
             </p>
           </div>
